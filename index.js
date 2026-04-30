@@ -23,6 +23,7 @@ app.use('/api/seo', require('./routes/seo'));
 app.use('/api/chat', require('./routes/chat'));
 app.use('/api/references', require('./routes/references'));
 app.use('/api/downloads', require('./routes/downloads'));
+app.use('/api/contact', require('./routes/contact'));
 
 const seoRouter = require('./routes/seo');
 app.get('/robots.txt', (req, res) => seoRouter.handle ? seoRouter.handle(req, res) : res.type('text/plain').send('User-agent: *\nAllow: /'));
