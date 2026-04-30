@@ -1,0 +1,648 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "ivocrm-admin",
+      "password_hash": "$2b$10$MPxUr/N9AohzJCNEM6SuaudS.RT0VTUUGe9HGFts4imKtQe6uvvuS"
+    }
+  ],
+  "sections": [
+    {
+      "slug": "navbar",
+      "content": {
+        "logoText": "İVOPOS YAZILIM ÇÖZÜMLERİ",
+        "logo": "/uploads/a06ab859-934e-48c7-9a5f-b4182d8191ee.jpg",
+        "phone": "0555 872 70 73",
+        "menuItems": [
+          {
+            "label": "Anasayfa",
+            "link": "/",
+            "children": []
+          },
+          {
+            "label": "ERP",
+            "link": "#",
+            "children": [
+              {
+                "label": "Ön Muhasebe Yönetimi",
+                "link": "#"
+              },
+              {
+                "label": "Satış Yönetimi",
+                "link": "#"
+              },
+              {
+                "label": "Üretim Yönetimi",
+                "link": "#"
+              },
+              {
+                "label": "Stok Yönetimi",
+                "link": "#"
+              },
+              {
+                "label": "Finans Yönetimi",
+                "link": "#"
+              },
+              {
+                "label": "Genel Muhasebe",
+                "link": "#"
+              },
+              {
+                "label": "SELAMİ",
+                "link": "/selami"
+              }
+            ]
+          },
+          {
+            "label": "E-Dönüşüm",
+            "link": "#",
+            "children": [
+              {
+                "label": "E-Fatura",
+                "link": "#"
+              },
+              {
+                "label": "E-İrsaliye",
+                "link": "#"
+              },
+              {
+                "label": "E-Arşiv",
+                "link": "#"
+              },
+              {
+                "label": "E-Defter",
+                "link": "#"
+              }
+            ]
+          },
+          {
+            "label": "E-Ticaret",
+            "link": "#",
+            "children": [
+              {
+                "label": "B2B",
+                "link": "#"
+              },
+              {
+                "label": "B2C",
+                "link": "#"
+              },
+              {
+                "label": "Pazaryeri Entegrasyonları",
+                "link": "#"
+              }
+            ]
+          },
+          {
+            "label": "İletişim",
+            "link": "/iletisim",
+            "children": []
+          },
+          {
+            "label": "Referanslar",
+            "link": "/referanslar",
+            "children": []
+          },
+          {
+            "label": "İndirme Merkezi",
+            "link": "/indirme-merkezi",
+            "children": []
+          }
+        ]
+      },
+      "updated_at": "2026-04-29T13:23:02.105Z"
+    },
+    {
+      "slug": "hero",
+      "content": {
+        "slides": [
+          {
+            "id": 1,
+            "title": "Her şirkete uygun İvo Yazılım ürünlerini keşfedin",
+            "subtitle": "ERP, CRM, E-Dönüşüm ve daha fazlası ile işletmenizi dijitalleştirin",
+            "image": "",
+            "bgColor": "#0a2540",
+            "btn1Text": "KEŞFET",
+            "btn1Link": "#solutions",
+            "btn2Text": "TEKLİF AL",
+            "btn2Link": "/iletisim"
+          },
+          {
+            "id": 2,
+            "title": "Güçlü ERP Çözümleriyle İşletmenizi Yönetin",
+            "subtitle": "Muhasebe, stok, satış ve üretim süreçlerinizi tek platformda yönetin",
+            "image": "",
+            "bgColor": "#0d3b6e",
+            "btn1Text": "ERP İNCELE",
+            "btn1Link": "#solutions",
+            "btn2Text": "DEMO İSTE",
+            "btn2Link": "/iletisim"
+          }
+        ]
+      },
+      "updated_at": "2026-03-23T13:09:21.483Z"
+    },
+    {
+      "slug": "solutions",
+      "content": {
+        "title": "İvopos Yazılım Çözümleri",
+        "subtitle": "İşletmenize özel yazılım çözümleri sunuyoruz",
+        "cards": [
+          {
+            "id": 1,
+            "title": "ERP Çözümleri",
+            "description": "İşletmenizin tüm süreçlerini entegre bir yapıda yönetin. Muhasebe, stok, satış ve daha fazlası.",
+            "image": "",
+            "link": "#",
+            "slug": "erp-cozumleri"
+          },
+          {
+            "id": 2,
+            "title": "Mobil Uygulama",
+            "description": "iOS ve Android platformlarında işletmenizi her yerden yönetin. Güçlü mobil çözümler.",
+            "image": "",
+            "link": "#",
+            "slug": "mobil-uygulama"
+          },
+          {
+            "id": 3,
+            "title": "Müşteri Odaklı CRM",
+            "description": "Müşteri ilişkilerinizi güçlendirin. Satış süreçlerinizi optimize edin ve müşteri memnuniyetini artırın.",
+            "image": "",
+            "link": "#",
+            "slug": "musteri-odakli-crm"
+          },
+          {
+            "id": 4,
+            "title": "Gelişmiş Entegrasyon",
+            "description": "E-ticaret, muhasebe ve lojistik sistemlerinizi tek bir platformda entegre edin.",
+            "image": "",
+            "link": "#",
+            "slug": "gelismis-entegrasyon"
+          },
+          {
+            "id": 5,
+            "title": "Tam Entegre Yönetim",
+            "description": "Tüm departmanlarınızı birbirine bağlayan kapsamlı yönetim sistemi.",
+            "image": "",
+            "link": "#",
+            "slug": "tam-entegre-yonetim"
+          },
+          {
+            "id": 6,
+            "title": "Kamu Projeleri",
+            "description": "Kamuya özel yazılım projelerinde 20 yıllık deneyimle yanınızdayız.",
+            "image": "",
+            "link": "#",
+            "slug": "kamu-projeleri"
+          }
+        ]
+      },
+      "updated_at": "2026-03-26T06:34:20.624Z"
+    },
+    {
+      "slug": "stats",
+      "content": {
+        "items": [
+          {
+            "id": 1,
+            "value": 5000,
+            "suffix": "+",
+            "label": "Mutlu Müşteri"
+          },
+          {
+            "id": 2,
+            "value": 20,
+            "suffix": "+",
+            "label": "Yıllık Deneyim"
+          },
+          {
+            "id": 3,
+            "value": 150,
+            "suffix": "+",
+            "label": "Uzman Kadro"
+          },
+          {
+            "id": 4,
+            "value": 10000,
+            "suffix": "+",
+            "label": "Tamamlanan Proje"
+          }
+        ]
+      },
+      "updated_at": "2026-03-22T19:40:15.390Z"
+    },
+    {
+      "slug": "cta",
+      "content": {
+        "title": "İvo Yazılım çözümlerinin şirketinize sağlayacağı faydaları öğrenmek ister misiniz?",
+        "btnText": "Detaylı Bilgi Al",
+        "btnLink": "/iletisim"
+      },
+      "updated_at": "2026-03-23T13:08:18.087Z"
+    },
+    {
+      "slug": "footer",
+      "content": {
+        "logo": "",
+        "logoText": "İvo Yazılım",
+        "description": "20 yılı aşkın tecrübemizle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+        "phone": "0555 872 70 73",
+        "email": "info@ivopos.com",
+        "address": "İstanbul, Türkiye",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "linkedin": "#",
+          "instagram": "#",
+          "youtube": "#"
+        },
+        "copyright": "© 2026 İvo Yazılım. Tüm hakları saklıdır."
+      },
+      "updated_at": "2026-03-23T13:08:18.084Z"
+    },
+    {
+      "slug": "pages",
+      "content": {
+        "kurumsal": {
+          "title": "Hakkımızda",
+          "body": "<h2>Toya Yazılım Hakkında</h2><p>20 yılı aşkın tecrübemizle işletmelerin dijital dönüşümüne liderlik ediyoruz.</p>"
+        },
+        "iletisim": {
+          "title": "İletişim",
+          "body": "<h2>Bize Ulaşın</h2><p>Her türlü soru ve talebiniz için bizimle iletişime geçebilirsiniz.</p>"
+        }
+      },
+      "updated_at": "2026-03-22T19:40:15.390Z"
+    },
+    {
+      "slug": "theme",
+      "content": {
+        "colors": {
+          "primary": "#f97316",
+          "secondary": "#0a2540",
+          "accent": "#0d3b6e",
+          "background": "#f8fafc",
+          "surface": "#ffffff",
+          "text": "#1a1a2e",
+          "textMuted": "#64748b"
+        },
+        "typography": {
+          "fontFamily": "Inter, sans-serif",
+          "fontFamilyHeading": "Inter, sans-serif",
+          "fontSizeBase": "16px",
+          "h1": {
+            "size": "2.5rem",
+            "weight": "700"
+          },
+          "h2": {
+            "size": "2rem",
+            "weight": "700"
+          },
+          "h3": {
+            "size": "1.5rem",
+            "weight": "600"
+          },
+          "lineHeight": "1.6"
+        },
+        "spacing": {
+          "sectionPaddingY": "80px",
+          "cardBorderRadius": "16px",
+          "buttonBorderRadius": "8px"
+        },
+        "logo": "/uploads/758fadd1-1d6c-4fe3-adae-98a7faff496c.jpg",
+        "favicon": "",
+        "slug": "theme",
+        "content": {
+          "colors": {
+            "primary": "#ff0000"
+          },
+          "typography": {
+            "fontFamily": "Arial"
+          },
+          "spacing": {
+            "sectionPaddingY": "80px"
+          },
+          "logo": "",
+          "favicon": ""
+        },
+        "updated_at": "2026-03-23T06:31:06.111Z"
+      },
+      "updated_at": "2026-03-23T13:08:59.930Z"
+    },
+    {
+      "slug": "homeLayout",
+      "content": {
+        "activeTheme": "A"
+      },
+      "updated_at": "2026-03-25T16:30:27.487Z"
+    }
+  ],
+  "images": [
+    {
+      "id": "bbbd0c21-cb2f-4ac1-8d5e-78a216642aa0",
+      "filename": "d8c8d921-4374-4cc4-a411-6ab44b61e091.jpg",
+      "original_name": "20171208134232_2911_B_L0809-1_wa800.jpg",
+      "size": 30826,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/d8c8d921-4374-4cc4-a411-6ab44b61e091.jpg",
+      "created_at": "2026-03-23T12:34:42.392Z"
+    },
+    {
+      "id": "41116943-1e41-4d5a-be22-0b730f36e6b9",
+      "filename": "a06ab859-934e-48c7-9a5f-b4182d8191ee.jpg",
+      "original_name": "20171208134232_2911_B_L0809-1_wa800.jpg",
+      "size": 30826,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/a06ab859-934e-48c7-9a5f-b4182d8191ee.jpg",
+      "created_at": "2026-03-23T12:37:14.845Z"
+    },
+    {
+      "id": "84a95bb4-d7f2-449a-9345-a896bb619a19",
+      "filename": "758fadd1-1d6c-4fe3-adae-98a7faff496c.jpg",
+      "original_name": "20171208134232_2911_B_L0809-1_wa800.jpg",
+      "size": 30826,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/758fadd1-1d6c-4fe3-adae-98a7faff496c.jpg",
+      "created_at": "2026-03-23T13:08:58.354Z"
+    },
+    {
+      "id": "a8ca8633-26b0-4878-872e-f905eaf7152a",
+      "filename": "085bff5e-12b6-414c-8edd-8539f6501f1a.jpg",
+      "original_name": "20171208134232_2911_B_L0809-1_wa800.jpg",
+      "size": 30826,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/085bff5e-12b6-414c-8edd-8539f6501f1a.jpg",
+      "created_at": "2026-03-25T08:31:37.235Z"
+    },
+    {
+      "id": "e0868e64-7944-4827-9353-3fd472c18a0e",
+      "filename": "1239ae18-47a0-44cd-9c55-116d73524bdc.jpg",
+      "original_name": "TOYA.JPG",
+      "size": 11837,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/1239ae18-47a0-44cd-9c55-116d73524bdc.jpg",
+      "created_at": "2026-03-25T09:37:02.997Z"
+    },
+    {
+      "id": "e63646a6-651d-4bef-b2df-59374a7c26d4",
+      "filename": "64420ab9-5f6f-495a-86f6-b3548fe57412.png",
+      "original_name": "xreels10.png",
+      "size": 4126280,
+      "mime_type": "image/png",
+      "url": "/uploads/64420ab9-5f6f-495a-86f6-b3548fe57412.png",
+      "created_at": "2026-04-29T13:19:16.962Z"
+    },
+    {
+      "id": "82aed675-b59b-460f-a9f0-de9a63ee22a0",
+      "filename": "24a17c3b-8583-40ff-a04e-f09473824202.png",
+      "original_name": "xreels6.png",
+      "size": 3960130,
+      "mime_type": "image/png",
+      "url": "/uploads/24a17c3b-8583-40ff-a04e-f09473824202.png",
+      "created_at": "2026-04-29T13:21:16.959Z"
+    },
+    {
+      "id": "e557c2b6-07fe-4564-83e4-352bdc82d1b7",
+      "filename": "e8d47703-e7fb-4e2d-abc2-7be44fcfaac5.png",
+      "original_name": "xreels9.png",
+      "size": 3909695,
+      "mime_type": "image/png",
+      "url": "/uploads/e8d47703-e7fb-4e2d-abc2-7be44fcfaac5.png",
+      "created_at": "2026-04-29T13:21:21.409Z"
+    },
+    {
+      "id": "185222bb-e4eb-4aa8-bbae-475d9ed2161a",
+      "filename": "c1d87a70-ae21-423e-9bda-9581ace8d778.jpg",
+      "original_name": "xlogo 5.jpg",
+      "size": 898572,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/c1d87a70-ae21-423e-9bda-9581ace8d778.jpg",
+      "created_at": "2026-04-29T13:21:35.969Z"
+    },
+    {
+      "id": "e0136e25-5929-45e3-b588-74bdd561c181",
+      "filename": "dfea86ac-08cf-4f52-9f4b-a8fe14c3f04b.png",
+      "original_name": "xreels7.png",
+      "size": 4009152,
+      "mime_type": "image/png",
+      "url": "/uploads/dfea86ac-08cf-4f52-9f4b-a8fe14c3f04b.png",
+      "created_at": "2026-04-29T13:21:47.547Z"
+    },
+    {
+      "id": "8cb5325b-75c3-4e69-a336-f7ccdebdc0e8",
+      "filename": "31f83ec9-e52d-4c5f-95a7-02bf80867cd8.png",
+      "original_name": "xlogo2.png",
+      "size": 1447515,
+      "mime_type": "image/png",
+      "url": "/uploads/31f83ec9-e52d-4c5f-95a7-02bf80867cd8.png",
+      "created_at": "2026-04-29T13:21:56.307Z"
+    },
+    {
+      "id": "ed7355a2-39e5-4c52-bbb2-eac43b7dc06a",
+      "filename": "88ce0f0a-a8a4-4260-bf2a-c0a089f88f3a.png",
+      "original_name": "xlogo2.png",
+      "size": 1447515,
+      "mime_type": "image/png",
+      "url": "/uploads/88ce0f0a-a8a4-4260-bf2a-c0a089f88f3a.png",
+      "created_at": "2026-04-29T13:22:05.698Z"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-erp",
+      "parentId": null,
+      "slug": "erp-cozumleri",
+      "title": "ERP Çözümleri",
+      "body": "<h2>ERP Çözümleri</h2><p>İşletmenizin tüm süreçlerini entegre bir yapıda yönetin. Muhasebe, stok, satış ve daha fazlası tek platformda.</p>",
+      "image": "",
+      "order": 0,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "page-mobile",
+      "parentId": null,
+      "slug": "mobil-uygulama",
+      "title": "Mobil Uygulama",
+      "body": "<h2>Mobil Uygulama</h2><p>iOS ve Android platformlarında işletmenizi her yerden yönetin. Güçlü mobil çözümler sunuyoruz.</p>",
+      "image": "",
+      "order": 1,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "page-crm",
+      "parentId": null,
+      "slug": "musteri-odakli-crm",
+      "title": "Müşteri Odaklı CRM",
+      "body": "<h2>Müşteri Odaklı CRM</h2><p>Müşteri ilişkilerinizi güçlendirin. Satış süreçlerinizi optimize edin ve müşteri memnuniyetini artırın.</p>",
+      "image": "",
+      "order": 2,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "page-integration",
+      "parentId": null,
+      "slug": "gelismis-entegrasyon",
+      "title": "Gelişmiş Entegrasyon",
+      "body": "<h2>Gelişmiş Entegrasyon</h2><p>E-ticaret, muhasebe ve lojistik sistemlerinizi tek bir platformda entegre edin.</p>",
+      "image": "",
+      "order": 3,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "page-management",
+      "parentId": null,
+      "slug": "tam-entegre-yonetim",
+      "title": "Tam Entegre Yönetim",
+      "body": "<h2>Tam Entegre Yönetim</h2><p>Tüm departmanlarınızı birbirine bağlayan kapsamlı yönetim sistemi.</p>",
+      "image": "",
+      "order": 4,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "page-public",
+      "parentId": null,
+      "slug": "kamu-projeleri",
+      "title": "Kamu Projeleri",
+      "body": "<h2>Kamu Projeleri</h2><p>Kamuya özel yazılım projelerinde 20 yıllık deneyimle yanınızdayız.</p>",
+      "image": "",
+      "order": 5,
+      "createdAt": "2026-03-22T19:40:15.391Z",
+      "updatedAt": "2026-03-22T19:40:15.391Z"
+    },
+    {
+      "id": "f789bd9a-4d61-4371-b756-ce23fd81dc5c",
+      "parentId": null,
+      "slug": "selami",
+      "title": "selami",
+      "body": "DSALSADSANDŞLSADNŞLASMDŞLSAMDŞA",
+      "image": "/uploads/d8c8d921-4374-4cc4-a411-6ab44b61e091.jpg",
+      "images": [],
+      "seoTitle": "",
+      "seoDescription": "",
+      "order": 0,
+      "createdAt": "2026-03-23T07:46:47.942Z",
+      "updatedAt": "2026-03-23T12:35:35.382Z"
+    }
+  ],
+  "productCategories": [
+    {
+      "id": "55dc74bc-6d2c-48a9-805c-eeb45397fc77",
+      "name": "DOKUNMATİK BİLGİSAYAR",
+      "slug": "dokunmati-k-bi-lgi-sayar",
+      "parentId": null,
+      "image": "",
+      "order": 0,
+      "createdAt": "2026-03-23T12:32:09.649Z"
+    }
+  ],
+  "products": [],
+  "seoMeta": [
+    {
+      "id": "seo-home",
+      "pageKey": "/",
+      "title": "İvo Yazılım | Ana Sayfa",
+      "description": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz. ERP, CRM, E-Dönüşüm ve daha fazlası.",
+      "keywords": "erp, crm, e-dönüşüm, yazılım, toya",
+      "ogTitle": "İvo Yazılım",
+      "ogDescription": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+      "ogImage": "",
+      "canonical": "",
+      "robots": "index, follow",
+      "jsonLd": null,
+      "updatedAt": "2026-03-23T13:12:44.479Z"
+    },
+    {
+      "id": "43fe66fe-ed08-4503-bc9c-f2ea77744b72",
+      "pageKey": "/kurumsal",
+      "title": "İvo Yazılım | ERP, CRM, E-Dönüşüm Çözümleri",
+      "description": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+      "keywords": "",
+      "ogTitle": "İvo Yazılım | ERP, CRM, E-Dönüşüm Çözümleri",
+      "ogDescription": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+      "ogImage": "",
+      "canonical": "",
+      "robots": "index, follow",
+      "updatedAt": "2026-03-23T13:13:08.424Z"
+    },
+    {
+      "id": "03737074-4abb-4465-84fc-33cc94f5a933",
+      "pageKey": "/iletisim",
+      "title": "İvo Yazılım | ERP, CRM, E-Dönüşüm Çözümleri",
+      "description": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+      "keywords": "",
+      "ogTitle": "İvo Yazılım | ERP, CRM, E-Dönüşüm Çözümleri",
+      "ogDescription": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+      "ogImage": "",
+      "canonical": "",
+      "robots": "index, follow",
+      "updatedAt": "2026-03-23T13:13:20.826Z"
+    }
+  ],
+  "seoGlobal": {
+    "siteName": "İvo Yazılım",
+    "defaultTitle": "İvo Yazılım | ERP, CRM, E-Dönüşüm Çözümleri",
+    "defaultDescription": "20 yıllık tecrübeyle işletmelerin dijital dönüşümüne liderlik ediyoruz.",
+    "defaultOgImage": "",
+    "robotsTxt": "User-agent: *\nAllow: /\nDisallow: /admin\n\nSitemap: /sitemap.xml"
+  },
+  "chatSessions": [],
+  "chatMessages": [
+    {
+      "id": "d2e27b50-9a17-4b2e-b742-a38c285dfbc5",
+      "sessionId": "sess_mn301pusv2b",
+      "visitorName": "hamide",
+      "visitorEmail": "",
+      "message": "selamiseni seviyorum",
+      "reply": "bende",
+      "status": "replied",
+      "createdAt": "2026-03-25T16:31:56.019Z",
+      "repliedAt": "2026-03-25T16:32:06.497Z"
+    },
+    {
+      "id": "2b8db912-038a-4501-8454-5a2082c7536c",
+      "sessionId": "sess_by1pyjf4078",
+      "visitorName": "selami",
+      "visitorEmail": "ivopostr@gmail.com",
+      "message": "methaba",
+      "reply": "merhaba",
+      "status": "replied",
+      "createdAt": "2026-03-23T06:59:45.345Z",
+      "repliedAt": "2026-03-23T07:00:12.288Z"
+    },
+    {
+      "id": "f67c5f68-96f5-4b00-bfc9-6b8117561984",
+      "sessionId": "869db67b-0317-4a2d-a918-9df54acd8530",
+      "visitorName": "hamide wewew",
+      "visitorEmail": "ivopostr@gmail.com",
+      "message": "Telefon: 23232\n\nsfdsadasdsad",
+      "reply": "",
+      "status": "read",
+      "createdAt": "2026-03-25T16:34:57.046Z",
+      "repliedAt": null
+    }
+  ],
+  "references": [
+    {
+      "id": "ea8c59cc-edce-4044-abcd-20f5f12994b1",
+      "companyName": "SHBUBBY WAFFELE",
+      "work": "BEŞİKTAŞ MERKESİNDE KURULUM YAPILDI SEFAKÖY VE KADIKÖY ŞUBLERİ ENTEGRE EDİLD,İ",
+      "logo": "/uploads/085bff5e-12b6-414c-8edd-8539f6501f1a.jpg",
+      "order": 0
+    }
+  ],
+  "downloads": [
+    {
+      "id": "a69f1790-90fa-4799-94a4-b82761fd86a4",
+      "name": "TOYAPOS ",
+      "logo": "/uploads/1239ae18-47a0-44cd-9c55-116d73524bdc.jpg",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Pos_1767863987.exe",
+      "order": 1
+    }
+  ]
+}
