@@ -19,6 +19,7 @@ app.use('/api/images', require('./routes/images'));
 app.use('/api/pages', require('./routes/pages'));
 app.use('/api/categories', require('./routes/categories'));
 app.use('/api/products', require('./routes/products'));
+app.use('/api/collections', require('./routes/collections'));
 app.use('/api/seo', require('./routes/seo'));
 app.use('/api/chat', require('./routes/chat'));
 app.use('/api/references', require('./routes/references'));

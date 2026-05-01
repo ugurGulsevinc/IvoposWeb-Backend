@@ -107,10 +107,19 @@
             "label": "İndirme Merkezi",
             "link": "/indirme-merkezi",
             "children": []
+          },
+          {
+            "label": "a",
+            "link": "/urunler",
+            "children": [],
+            "type": "dynamic",
+            "dropdownMode": "categoriesWithEntries",
+            "sourceType": "collection",
+            "sourceId": "64bb9ca4-def3-49d3-9786-5ab9eea1b643"
           }
         ]
       },
-      "updated_at": "2026-04-29T13:23:02.105Z"
+      "updated_at": "2026-05-01T09:27:54.088Z"
     },
     {
       "slug": "hero",
@@ -541,7 +550,25 @@
       "createdAt": "2026-03-23T12:32:09.649Z"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "5361ec24-b954-40ad-afb6-0e262257a989",
+      "name": "z<z",
+      "slug": "z-z",
+      "categoryId": "",
+      "price": 0,
+      "discountPrice": null,
+      "images": [],
+      "features": [],
+      "description": "z",
+      "shortDescription": "z",
+      "stock": 0,
+      "tags": [],
+      "isActive": true,
+      "createdAt": "2026-05-01T08:56:43.398Z",
+      "updatedAt": "2026-05-01T08:56:43.398Z"
+    }
+  ],
   "seoMeta": [
     {
       "id": "seo-home",
@@ -594,6 +621,17 @@
   "chatSessions": [],
   "chatMessages": [
     {
+      "id": "f67c5f68-96f5-4b00-bfc9-6b8117561984",
+      "sessionId": "869db67b-0317-4a2d-a918-9df54acd8530",
+      "visitorName": "hamide wewew",
+      "visitorEmail": "ivopostr@gmail.com",
+      "message": "Telefon: 23232\n\nsfdsadasdsad",
+      "reply": "",
+      "status": "read",
+      "createdAt": "2026-03-25T16:34:57.046Z",
+      "repliedAt": null
+    },
+    {
       "id": "d2e27b50-9a17-4b2e-b742-a38c285dfbc5",
       "sessionId": "sess_mn301pusv2b",
       "visitorName": "hamide",
@@ -614,17 +652,6 @@
       "status": "replied",
       "createdAt": "2026-03-23T06:59:45.345Z",
       "repliedAt": "2026-03-23T07:00:12.288Z"
-    },
-    {
-      "id": "f67c5f68-96f5-4b00-bfc9-6b8117561984",
-      "sessionId": "869db67b-0317-4a2d-a918-9df54acd8530",
-      "visitorName": "hamide wewew",
-      "visitorEmail": "ivopostr@gmail.com",
-      "message": "Telefon: 23232\n\nsfdsadasdsad",
-      "reply": "",
-      "status": "read",
-      "createdAt": "2026-03-25T16:34:57.046Z",
-      "repliedAt": null
     }
   ],
   "references": [
@@ -643,6 +670,305 @@
       "logo": "/uploads/1239ae18-47a0-44cd-9c55-116d73524bdc.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Pos_1767863987.exe",
       "order": 1
+    }
+  ],
+  "collections": [
+    {
+      "id": "64bb9ca4-def3-49d3-9786-5ab9eea1b643",
+      "name": "ürünler",
+      "slug": "urunler",
+      "description": "ürünlerimiz burada gozukur",
+      "fields": [
+        {
+          "key": "b",
+          "label": "başlık",
+          "type": "number",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        },
+        {
+          "key": "m",
+          "label": "metin",
+          "type": "text",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        }
+      ],
+      "listSettings": {
+        "showCategories": true,
+        "showSearch": true,
+        "showSort": true,
+        "gridColumns": 3,
+        "cardTemplateId": "",
+        "detailTemplateId": ""
+      },
+      "seo": {
+        "title": "",
+        "description": ""
+      },
+      "status": "published",
+      "order": 0,
+      "createdAt": "2026-05-01T09:01:51.963Z",
+      "updatedAt": "2026-05-01T09:01:51.963Z"
+    },
+    {
+      "id": "33d54c7f-613c-4a87-9213-f6485176b739",
+      "name": "hgjhjgp",
+      "slug": "hgjhjgp",
+      "description": "",
+      "fields": [
+        {
+          "key": "l",
+          "label": "l",
+          "type": "textarea",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        },
+        {
+          "key": "h",
+          "label": "hgj",
+          "type": "richtext",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        },
+        {
+          "key": "h",
+          "label": "hgj",
+          "type": "number",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        },
+        {
+          "key": "g",
+          "label": "ghj",
+          "type": "features",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        }
+      ],
+      "listSettings": {
+        "showCategories": true,
+        "showSearch": true,
+        "showSort": true,
+        "gridColumns": 3,
+        "cardTemplateId": "",
+        "detailTemplateId": ""
+      },
+      "seo": {
+        "title": "",
+        "description": ""
+      },
+      "status": "published",
+      "order": 0,
+      "createdAt": "2026-05-01T09:25:43.035Z",
+      "updatedAt": "2026-05-01T09:27:08.102Z"
+    },
+    {
+      "id": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "name": "hizmetlerimiz",
+      "slug": "hizmetlerimiz",
+      "description": "hizmetlerimiz ..............",
+      "fields": [
+        {
+          "key": "a",
+          "label": "aug",
+          "type": "price",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        },
+        {
+          "key": "b",
+          "label": "berg",
+          "type": "gallery",
+          "required": false,
+          "showInCard": true,
+          "showInDetail": true
+        }
+      ],
+      "listSettings": {
+        "showCategories": true,
+        "showSearch": true,
+        "showSort": true,
+        "gridColumns": 12,
+        "cardTemplateId": "",
+        "detailTemplateId": ""
+      },
+      "seo": {
+        "title": "",
+        "description": ""
+      },
+      "status": "published",
+      "order": 0,
+      "createdAt": "2026-05-01T09:32:51.777Z",
+      "updatedAt": "2026-05-01T09:32:51.777Z"
+    }
+  ],
+  "collectionCategories": [
+    {
+      "id": "a1461868-7e89-48f0-ba2f-b533d4ad8358",
+      "collectionId": "64bb9ca4-def3-49d3-9786-5ab9eea1b643",
+      "parentId": null,
+      "name": "a",
+      "slug": "a",
+      "description": "sda sad",
+      "image": "",
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displaySettings": {},
+      "createdAt": "2026-05-01T09:24:11.489Z",
+      "updatedAt": "2026-05-01T09:24:11.489Z"
+    },
+    {
+      "id": "64220b67-86e5-4911-be36-6a13098bfd8d",
+      "collectionId": "33d54c7f-613c-4a87-9213-f6485176b739",
+      "parentId": null,
+      "name": "opğ",
+      "slug": "o",
+      "description": "opğ",
+      "image": "oğp",
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displaySettings": {},
+      "createdAt": "2026-05-01T09:25:50.881Z",
+      "updatedAt": "2026-05-01T09:25:50.881Z"
+    },
+    {
+      "id": "c4b34d1a-b2e0-472e-8aa6-5890d85a2a24",
+      "collectionId": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "parentId": null,
+      "name": "yerlerimiz",
+      "slug": "yerlerimiz",
+      "description": "dasd dsadasd",
+      "image": "",
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displaySettings": {},
+      "createdAt": "2026-05-01T09:33:20.128Z",
+      "updatedAt": "2026-05-01T09:33:20.128Z"
+    }
+  ],
+  "collectionEntries": [
+    {
+      "id": "9ebf7283-17cd-48a5-a7f8-988f07ce8019",
+      "collectionId": "33d54c7f-613c-4a87-9213-f6485176b739",
+      "title": "sadsa",
+      "slug": "s",
+      "shortDescription": "üğğı",
+      "description": "",
+      "categoryIds": [],
+      "fields": {
+        "l": "oppğo",
+        "h": "pğoğp8ı uyrk",
+        "g": "pğo"
+      },
+      "images": [],
+      "tags": [],
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displayOverrides": {},
+      "createdAt": "2026-05-01T09:26:35.487Z",
+      "updatedAt": "2026-05-01T09:26:35.487Z"
+    },
+    {
+      "id": "2829caf5-1898-47a6-b61e-59860c695e74",
+      "collectionId": "64bb9ca4-def3-49d3-9786-5ab9eea1b643",
+      "title": "yh",
+      "slug": "y",
+      "shortDescription": "hgf",
+      "description": "gfh",
+      "categoryIds": [],
+      "fields": {
+        "b": "fg",
+        "m": "gf"
+      },
+      "images": [
+        "fg"
+      ],
+      "tags": [],
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displayOverrides": {},
+      "createdAt": "2026-05-01T09:26:52.911Z",
+      "updatedAt": "2026-05-01T09:26:52.911Z"
+    },
+    {
+      "id": "90a3cd7e-9ed8-4265-94fa-82a921f86b29",
+      "collectionId": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "title": "a",
+      "slug": "a",
+      "shortDescription": "a",
+      "description": "a",
+      "categoryIds": [],
+      "fields": {
+        "a": "a",
+        "b": "a"
+      },
+      "images": [
+        "a"
+      ],
+      "tags": [],
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displayOverrides": {},
+      "createdAt": "2026-05-01T09:33:32.591Z",
+      "updatedAt": "2026-05-01T09:33:32.591Z"
+    },
+    {
+      "id": "701a0b2b-0262-4845-b65c-8b3d8ee26473",
+      "collectionId": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "title": "dsa",
+      "slug": "ddsa",
+      "shortDescription": "dsa",
+      "description": "das",
+      "categoryIds": [],
+      "fields": {
+        "a": "das",
+        "b": "dsa"
+      },
+      "images": [
+        "dsa"
+      ],
+      "tags": [],
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displayOverrides": {},
+      "createdAt": "2026-05-01T09:33:56.551Z",
+      "updatedAt": "2026-05-01T09:33:56.551Z"
+    }
+  ],
+  "collectionTemplates": [
+    {
+      "id": "ab2a0a61-c8a2-47c6-af85-650212eaa639",
+      "collectionId": "33d54c7f-613c-4a87-9213-f6485176b739",
+      "name": "Varsayılan Kart",
+      "type": "detail",
+      "config": {
+        "visibleFields": [
+          "l",
+          "g",
+          "h"
+        ],
+        "accentColor": "#f97316",
+        "layout": "compact"
+      },
+      "order": 0,
+      "isDefault": true,
+      "createdAt": "2026-05-01T09:27:26.487Z",
+      "updatedAt": "2026-05-01T09:27:26.487Z"
     }
   ]
 }

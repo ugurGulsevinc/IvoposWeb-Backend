@@ -310,7 +310,11 @@ db.defaults({
   chatSessions: [],
   chatMessages: [],
   references: [],
-  downloads: []
+  downloads: [],
+  collections: [],
+  collectionCategories: [],
+  collectionEntries: [],
+  collectionTemplates: []
 }).write();
 
 // sections dizisine theme yok ise ekle
@@ -357,5 +361,14 @@ if (!hasHomeLayout) {
     updated_at: new Date().toISOString()
   }).write();
 }
+
+[
+  'collections',
+  'collectionCategories',
+  'collectionEntries',
+  'collectionTemplates'
+].forEach((key) => {
+  if (!db.has(key).value()) db.set(key, []).write();
+});
 
 module.exports = db;
