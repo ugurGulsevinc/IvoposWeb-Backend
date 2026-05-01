@@ -116,10 +116,20 @@
             "dropdownMode": "categoriesWithEntries",
             "sourceType": "collection",
             "sourceId": "64bb9ca4-def3-49d3-9786-5ab9eea1b643"
+          },
+          {
+            "label": "pppp",
+            "link": "/hizmetlerimiz",
+            "children": [],
+            "type": "dynamic",
+            "menuStyle": "mega",
+            "sourceType": "collection",
+            "sourceId": "b0a25832-5416-4992-a426-01e9a9d97114",
+            "dropdownMode": "categoriesWithEntries"
           }
         ]
       },
-      "updated_at": "2026-05-01T09:27:54.088Z"
+      "updated_at": "2026-05-01T09:39:33.841Z"
     },
     {
       "slug": "hero",
@@ -855,6 +865,21 @@
       "displaySettings": {},
       "createdAt": "2026-05-01T09:33:20.128Z",
       "updatedAt": "2026-05-01T09:33:20.128Z"
+    },
+    {
+      "id": "ac01e847-02b3-4936-87ee-3d91337c330f",
+      "collectionId": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "parentId": "c4b34d1a-b2e0-472e-8aa6-5890d85a2a24",
+      "name": "dsadsa",
+      "slug": "ddsa",
+      "description": "das",
+      "image": "dsa",
+      "order": 0,
+      "status": "published",
+      "seo": {},
+      "displaySettings": {},
+      "createdAt": "2026-05-01T09:41:14.166Z",
+      "updatedAt": "2026-05-01T09:41:14.166Z"
     }
   ],
   "collectionEntries": [
@@ -887,7 +912,9 @@
       "slug": "y",
       "shortDescription": "hgf",
       "description": "gfh",
-      "categoryIds": [],
+      "categoryIds": [
+        "a1461868-7e89-48f0-ba2f-b533d4ad8358"
+      ],
       "fields": {
         "b": "fg",
         "m": "gf"
@@ -901,7 +928,7 @@
       "seo": {},
       "displayOverrides": {},
       "createdAt": "2026-05-01T09:26:52.911Z",
-      "updatedAt": "2026-05-01T09:26:52.911Z"
+      "updatedAt": "2026-05-01T10:41:07.507Z"
     },
     {
       "id": "90a3cd7e-9ed8-4265-94fa-82a921f86b29",
@@ -969,6 +996,23 @@
       "isDefault": true,
       "createdAt": "2026-05-01T09:27:26.487Z",
       "updatedAt": "2026-05-01T09:27:26.487Z"
+    },
+    {
+      "id": "de0a7055-cba3-4bfc-aa00-88144c5b635c",
+      "collectionId": "b0a25832-5416-4992-a426-01e9a9d97114",
+      "name": "Varsayılan Kart",
+      "type": "listing",
+      "config": {
+        "visibleFields": [
+          "a"
+        ],
+        "accentColor": "#f97222",
+        "layout": "hero-detail"
+      },
+      "order": 0,
+      "isDefault": true,
+      "createdAt": "2026-05-01T09:38:50.214Z",
+      "updatedAt": "2026-05-01T09:38:50.214Z"
     }
   ]
 }
