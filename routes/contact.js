@@ -30,6 +30,7 @@ router.post('/submit', async (req, res) => {
     // 2. CRM API'sine gönder
     const crmPayload = {
       tenant_subdomain: config.CRM_TENANT_SUBDOMAIN,
+      source: 'IvoPos',
       full_name: fullName,
       phone: phone || '',
       email: email || '',
