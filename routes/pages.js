@@ -38,6 +38,43 @@ function buildBreadcrumb(pages, page) {
   return crumbs;
 }
 
+// Sayfa için tam URL yolunu hesapla (örn. "erp-cozumleri/on-muhasebe")
+function getFullPath(pages, pageId) {
+  const page = pages.find((p) => p.id === pageId);
+  if (!page) return null;
+  const segs = [];
+  let cur = page;
+  while (cur) {
+    segs.unshift(cur.slug);
+    cur = cur.parentId ? pages.find((p) => p.id === cur.parentId) : null;
+  }
+  return segs.join('/');
+}
+
+// Navbar'daki tüm linkleri özyinelemeli güncelle
+function updateNavbarLinks(items, oldPath, newPath) {
+  return items.map((item) => {
+    const updated = { ...item };
+    // Link "/cozum/X" veya "/sayfa/X" formatında, kısmı eşleştir
+    const prefixes = ['/cozum/', '/sayfa/'];
+    for (const prefix of prefixes) {
+      if (updated.link === prefix + oldPath) {
+        updated.link = prefix + newPath;
+        break;
+      }
+      // Alt yol eşleştir: /cozum/erp/on-muhasebe → oldPath içeriyor mu
+      if (updated.link.startsWith(prefix + oldPath + '/')) {
+        updated.link = prefix + newPath + updated.link.slice((prefix + oldPath).length);
+        break;
+      }
+    }
+    if (updated.children && updated.children.length > 0) {
+      updated.children = updateNavbarLinks(updated.children, oldPath, newPath);
+    }
+    return updated;
+  });
+}
+
 router.get('/', (req, res) => {
   const pages = db.get('pages').value();
   res.json(buildTree(pages));
@@ -62,7 +99,7 @@ router.get('/by-path', (req, res) => {
 });
 
 router.post('/', auth, (req, res) => {
-  const { title, slug, body, image, images, parentId, order, seoTitle, seoDescription } = req.body;
+  const { title, slug, body, image, images, parentId, order, seoTitle, seoDescription, galleryPosition } = req.body;
   if (!title || !slug) return res.status(400).json({ error: 'title ve slug gerekli' });
   const existing = db.get('pages').find({ slug, parentId: parentId || null }).value();
   if (existing) return res.status(409).json({ error: 'Bu parentId altında aynı slug zaten var' });
@@ -77,6 +114,7 @@ router.post('/', auth, (req, res) => {
     seoTitle: seoTitle || '',
     seoDescription: seoDescription || '',
     order: order ?? 0,
+    galleryPosition: galleryPosition || 'after',
     createdAt: new Date().toISOString(),
     updatedAt: new Date().toISOString()
   };
@@ -85,18 +123,42 @@ router.post('/', auth, (req, res) => {
 });
 
 router.put('/:id', auth, (req, res) => {
-  const { title, slug, body, image, images, order, seoTitle, seoDescription } = req.body;
-  const page = db.get('pages').find({ id: req.params.id });
-  if (!page.value()) return res.status(404).json({ error: 'Sayfa bulunamadı' });
-  page.assign({
+  const { title, slug, body, image, images, order, seoTitle, seoDescription, galleryPosition } = req.body;
+  const pages = db.get('pages').value();
+  const existing = pages.find((p) => p.id === req.params.id);
+  if (!existing) return res.status(404).json({ error: 'Sayfa bulunamadı' });
+
+  // Slug değişti mi? Değiştiyse navbar linklerini güncelle
+  if (slug && slug !== existing.slug) {
+    const oldPath = getFullPath(pages, req.params.id);
+
+    // Sayfayı geçici olarak güncelle (pathMap için)
+    const tempPages = pages.map((p) => p.id === req.params.id ? { ...p, slug } : p);
+    const newPath = getFullPath(tempPages, req.params.id);
+
+    if (oldPath && newPath && oldPath !== newPath) {
+      const navbarSection = db.get('sections').find({ slug: 'navbar' }).value();
+      if (navbarSection && navbarSection.content && navbarSection.content.menuItems) {
+        const updatedItems = updateNavbarLinks(navbarSection.content.menuItems, oldPath, newPath);
+        db.get('sections').find({ slug: 'navbar' }).assign({
+          content: { ...navbarSection.content, menuItems: updatedItems },
+          updated_at: new Date().toISOString()
+        }).write();
+      }
+    }
+  }
+
+  db.get('pages').find({ id: req.params.id }).assign({
     title, slug, body,
     image: image || '',
     images: images || [],
     seoTitle: seoTitle || '',
     seoDescription: seoDescription || '',
+    galleryPosition: galleryPosition || 'after',
     order,
     updatedAt: new Date().toISOString()
   }).write();
+
   res.json({ success: true });
 });
 

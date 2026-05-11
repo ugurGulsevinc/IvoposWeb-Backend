@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   if (categoryId) products = products.filter((p) => p.categoryId === categoryId);
   if (q) {
     const ql = q.toLowerCase();
-    products = products.filter((p) => p.name.toLowerCase().includes(ql) || p.description.toLowerCase().includes(ql) || (p.tags || []).some((t) => t.toLowerCase().includes(ql)));
+    products = products.filter((p) => p.name.toLowerCase().includes(ql) || (p.description || '').toLowerCase().includes(ql) || (p.tags || []).some((t) => t.toLowerCase().includes(ql)));
   }
   if (minPrice) products = products.filter((p) => (p.discountPrice || p.price) >= parseFloat(minPrice));
   if (maxPrice) products = products.filter((p) => (p.discountPrice || p.price) <= parseFloat(maxPrice));
@@ -42,7 +42,7 @@ router.get('/:id', auth, (req, res) => {
 });
 
 router.post('/', auth, (req, res) => {
-  const { name, slug, categoryId, price, discountPrice, images, features, description, shortDescription, stock, tags } = req.body;
+  const { name, slug, categoryId, price, discountPrice, images, features, description, shortDescription, stock, tags, youtubeUrl } = req.body;
   if (!name || !slug) return res.status(400).json({ error: 'name ve slug gerekli' });
   const product = {
     id: uuidv4(), name, slug, categoryId: categoryId || '',
@@ -51,6 +51,7 @@ router.post('/', auth, (req, res) => {
     images: images || [], features: features || [],
     description: description || '', shortDescription: shortDescription || '',
     stock: parseInt(stock) || 0, tags: tags || [], isActive: true,
+    youtubeUrl: youtubeUrl || '',
     createdAt: new Date().toISOString(), updatedAt: new Date().toISOString()
   };
   db.get('products').push(product).write();
@@ -64,6 +65,7 @@ router.put('/:id', auth, (req, res) => {
   if (data.price) data.price = parseFloat(data.price);
   if (data.discountPrice) data.discountPrice = parseFloat(data.discountPrice);
   if (data.stock) data.stock = parseInt(data.stock);
+  if (data.youtubeUrl === undefined) data.youtubeUrl = '';
   p.assign(data).write();
   res.json({ success: true });
 });

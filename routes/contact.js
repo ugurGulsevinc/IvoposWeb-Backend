@@ -42,8 +42,7 @@ router.post('/submit', async (req, res) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-tenant-subdomain': config.CRM_TENANT_SUBDOMAIN,
-          'Origin': 'https://ivopos.com' // CRM'in izin verdiği bir domain ekledik
+          'x-tenant-subdomain': config.CRM_TENANT_SUBDOMAIN
         },
         body: JSON.stringify(crmPayload)
       });

@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "username": "ivocrm-admin",
-      "password_hash": "$2b$10$MPxUr/N9AohzJCNEM6SuaudS.RT0VTUUGe9HGFts4imKtQe6uvvuS"
+      "username": "admin",
+      "password_hash": "$2b$10$YDnGuS.nbP66wODY.948cenMxElvLgRzVRFqQfLekKC/cJBykJKSy"
     }
   ],
   "sections": [
@@ -21,77 +21,60 @@
           },
           {
             "label": "ERP",
-            "link": "#",
+            "link": "/cozum/erp-cozumleri",
             "children": [
               {
                 "label": "Ön Muhasebe Yönetimi",
-                "link": "#"
+                "link": "/cozum/erp-cozumleri/on-muhasebe"
               },
               {
-                "label": "Satış Yönetimi",
-                "link": "#"
+                "label": "Saha Satış Yönetimi",
+                "link": "/cozum/erp-cozumleri/satis-yonetimi"
               },
               {
                 "label": "Üretim Yönetimi",
-                "link": "#"
+                "link": "/cozum/erp-cozumleri/uretim-yonetimi"
               },
               {
                 "label": "Stok Yönetimi",
-                "link": "#"
+                "link": "/cozum/erp-cozumleri/stok-yonetimi"
               },
               {
                 "label": "Finans Yönetimi",
-                "link": "#"
+                "link": "/cozum/erp-cozumleri/finans-yonetimi"
               },
               {
-                "label": "Genel Muhasebe",
-                "link": "#"
-              },
-              {
-                "label": "SELAMİ",
-                "link": "/selami"
+                "label": "CRM Teklif Yönetim",
+                "link": "/cozum/erp-cozumleri/crm-teklif"
               }
             ]
           },
           {
             "label": "E-Dönüşüm",
-            "link": "#",
+            "link": "/cozum/e-donusum",
             "children": [
               {
                 "label": "E-Fatura",
-                "link": "#"
+                "link": "/cozum/e-donusum/e-fatura"
               },
               {
                 "label": "E-İrsaliye",
-                "link": "#"
+                "link": "/cozum/e-donusum/e-irsaliye"
               },
               {
                 "label": "E-Arşiv",
-                "link": "#"
+                "link": "/cozum/e-donusum/e-arsiv"
               },
               {
                 "label": "E-Defter",
-                "link": "#"
+                "link": "/cozum/e-donusum/e-defter"
               }
             ]
           },
           {
-            "label": "E-Ticaret",
-            "link": "#",
-            "children": [
-              {
-                "label": "B2B",
-                "link": "#"
-              },
-              {
-                "label": "B2C",
-                "link": "#"
-              },
-              {
-                "label": "Pazaryeri Entegrasyonları",
-                "link": "#"
-              }
-            ]
+            "label": "Ürünler",
+            "link": "/urunler",
+            "children": []
           },
           {
             "label": "İletişim",
@@ -110,7 +93,7 @@
           }
         ]
       },
-      "updated_at": "2026-04-29T13:23:02.105Z"
+      "updated_at": "2026-05-08T15:21:35.138Z"
     },
     {
       "slug": "hero",
@@ -285,7 +268,10 @@
           "background": "#f8fafc",
           "surface": "#ffffff",
           "text": "#1a1a2e",
-          "textMuted": "#64748b"
+          "textMuted": "#64748b",
+          "productName": "#24894b",
+          "productDescription": "#97471c",
+          "productPrice": "#353331"
         },
         "typography": {
           "fontFamily": "Inter, sans-serif",
@@ -310,25 +296,10 @@
           "cardBorderRadius": "16px",
           "buttonBorderRadius": "8px"
         },
-        "logo": "/uploads/758fadd1-1d6c-4fe3-adae-98a7faff496c.jpg",
-        "favicon": "",
-        "slug": "theme",
-        "content": {
-          "colors": {
-            "primary": "#ff0000"
-          },
-          "typography": {
-            "fontFamily": "Arial"
-          },
-          "spacing": {
-            "sectionPaddingY": "80px"
-          },
-          "logo": "",
-          "favicon": ""
-        },
-        "updated_at": "2026-03-23T06:31:06.111Z"
+        "logo": "",
+        "favicon": ""
       },
-      "updated_at": "2026-03-23T13:08:59.930Z"
+      "updated_at": "2026-05-10T15:28:30.313Z"
     },
     {
       "slug": "homeLayout",
@@ -385,67 +356,121 @@
       "created_at": "2026-03-25T09:37:02.997Z"
     },
     {
-      "id": "e63646a6-651d-4bef-b2df-59374a7c26d4",
-      "filename": "64420ab9-5f6f-495a-86f6-b3548fe57412.png",
-      "original_name": "xreels10.png",
-      "size": 4126280,
-      "mime_type": "image/png",
-      "url": "/uploads/64420ab9-5f6f-495a-86f6-b3548fe57412.png",
-      "created_at": "2026-04-29T13:19:16.962Z"
-    },
-    {
-      "id": "82aed675-b59b-460f-a9f0-de9a63ee22a0",
-      "filename": "24a17c3b-8583-40ff-a04e-f09473824202.png",
-      "original_name": "xreels6.png",
-      "size": 3960130,
-      "mime_type": "image/png",
-      "url": "/uploads/24a17c3b-8583-40ff-a04e-f09473824202.png",
-      "created_at": "2026-04-29T13:21:16.959Z"
-    },
-    {
-      "id": "e557c2b6-07fe-4564-83e4-352bdc82d1b7",
-      "filename": "e8d47703-e7fb-4e2d-abc2-7be44fcfaac5.png",
-      "original_name": "xreels9.png",
-      "size": 3909695,
-      "mime_type": "image/png",
-      "url": "/uploads/e8d47703-e7fb-4e2d-abc2-7be44fcfaac5.png",
-      "created_at": "2026-04-29T13:21:21.409Z"
-    },
-    {
-      "id": "185222bb-e4eb-4aa8-bbae-475d9ed2161a",
-      "filename": "c1d87a70-ae21-423e-9bda-9581ace8d778.jpg",
-      "original_name": "xlogo 5.jpg",
-      "size": 898572,
+      "id": "a7358e28-cda4-44d4-b29b-64d59ba5dc98",
+      "filename": "b088b01d-cee8-42bb-a41e-ea6efb1f3379.jpg",
+      "original_name": "Ã¶n muhasebe.JPG",
+      "size": 79668,
       "mime_type": "image/jpeg",
-      "url": "/uploads/c1d87a70-ae21-423e-9bda-9581ace8d778.jpg",
-      "created_at": "2026-04-29T13:21:35.969Z"
+      "url": "/uploads/b088b01d-cee8-42bb-a41e-ea6efb1f3379.jpg",
+      "created_at": "2026-05-07T14:57:34.262Z"
     },
     {
-      "id": "e0136e25-5929-45e3-b588-74bdd561c181",
-      "filename": "dfea86ac-08cf-4f52-9f4b-a8fe14c3f04b.png",
-      "original_name": "xreels7.png",
-      "size": 4009152,
-      "mime_type": "image/png",
-      "url": "/uploads/dfea86ac-08cf-4f52-9f4b-a8fe14c3f04b.png",
-      "created_at": "2026-04-29T13:21:47.547Z"
+      "id": "b26bc473-ab43-4c7e-a286-9a44bb53057f",
+      "filename": "8d6a3c88-b66e-4a1b-afa8-7e9de73c57bd.jpg",
+      "original_name": "Ã¶n muhasebe.JPG",
+      "size": 79668,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/8d6a3c88-b66e-4a1b-afa8-7e9de73c57bd.jpg",
+      "created_at": "2026-05-07T15:06:46.458Z"
     },
     {
-      "id": "8cb5325b-75c3-4e69-a336-f7ccdebdc0e8",
-      "filename": "31f83ec9-e52d-4c5f-95a7-02bf80867cd8.png",
-      "original_name": "xlogo2.png",
-      "size": 1447515,
-      "mime_type": "image/png",
-      "url": "/uploads/31f83ec9-e52d-4c5f-95a7-02bf80867cd8.png",
-      "created_at": "2026-04-29T13:21:56.307Z"
+      "id": "2dd03f60-53d6-49e3-8e54-4b573667479a",
+      "filename": "a003a9e9-793e-4aaa-a5c6-579e45be7ca4.jpg",
+      "original_name": "afanda 1600.JPG",
+      "size": 47065,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/a003a9e9-793e-4aaa-a5c6-579e45be7ca4.jpg",
+      "created_at": "2026-05-08T08:29:36.497Z"
     },
     {
-      "id": "ed7355a2-39e5-4c52-bbb2-eac43b7dc06a",
-      "filename": "88ce0f0a-a8a4-4260-bf2a-c0a089f88f3a.png",
-      "original_name": "xlogo2.png",
-      "size": 1447515,
+      "id": "f8e75fc4-a058-406f-8cb5-110c4646cd31",
+      "filename": "aafb6d17-a1e1-4f98-9eda-5299f6ab4900.jpg",
+      "original_name": "Ã¶n muhasebe.JPG",
+      "size": 79668,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/aafb6d17-a1e1-4f98-9eda-5299f6ab4900.jpg",
+      "created_at": "2026-05-08T16:03:16.237Z"
+    },
+    {
+      "id": "1595c5bf-013f-48f2-a35e-ba432e6ae642",
+      "filename": "6fd96abc-bbf1-4f44-9fc0-1c0c25c49a1a.png",
+      "original_name": "Gemini_Generated_Image_ergg1mergg1mergg.png",
+      "size": 2577685,
       "mime_type": "image/png",
-      "url": "/uploads/88ce0f0a-a8a4-4260-bf2a-c0a089f88f3a.png",
-      "created_at": "2026-04-29T13:22:05.698Z"
+      "url": "/uploads/6fd96abc-bbf1-4f44-9fc0-1c0c25c49a1a.png",
+      "created_at": "2026-05-08T16:12:14.021Z"
+    },
+    {
+      "id": "6a7862e5-4424-40bc-b4fd-4afaecf1901a",
+      "filename": "cc56e74a-c9d6-43c9-ae81-cc122589023c.jpg",
+      "original_name": "AFANDA 1600.JPG",
+      "size": 48326,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/cc56e74a-c9d6-43c9-ae81-cc122589023c.jpg",
+      "created_at": "2026-05-09T07:56:52.757Z"
+    },
+    {
+      "id": "79953b32-9732-4f7e-828b-f501ce566ea8",
+      "filename": "224cfea5-dacc-429c-b08a-c81f0d59df2d.jpg",
+      "original_name": "AFANDA 1600.JPG",
+      "size": 48326,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/224cfea5-dacc-429c-b08a-c81f0d59df2d.jpg",
+      "created_at": "2026-05-09T07:57:03.763Z"
+    },
+    {
+      "id": "535573e7-bf46-4c9d-8d9e-ca6d604cb727",
+      "filename": "9371456d-dd37-49c9-9668-744ac61e5284.jpg",
+      "original_name": "POS YAZICI.JPG",
+      "size": 34739,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/9371456d-dd37-49c9-9668-744ac61e5284.jpg",
+      "created_at": "2026-05-09T08:14:33.331Z"
+    },
+    {
+      "id": "61342303-81ec-4ad9-b4b5-c4182f5e51d8",
+      "filename": "7c8b0820-3bbb-4ffe-9069-d2559e7648cd.jpg",
+      "original_name": "Dt-425B 110mm Termal Barkod YazÄ±cÄ±.JPG",
+      "size": 36144,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/7c8b0820-3bbb-4ffe-9069-d2559e7648cd.jpg",
+      "created_at": "2026-05-09T08:14:41.463Z"
+    },
+    {
+      "id": "48169961-0551-498c-ab4d-95f25e9808ce",
+      "filename": "79976404-f022-4eee-99d1-5e8686905492.jpg",
+      "original_name": "CEOPOS TERAZÄ°.JPG",
+      "size": 32537,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/79976404-f022-4eee-99d1-5e8686905492.jpg",
+      "created_at": "2026-05-09T08:14:49.806Z"
+    },
+    {
+      "id": "49ddc275-478f-4c27-849e-015fe4adf115",
+      "filename": "c40ab6ec-acfa-4e75-8da9-0e27b27d72dd.png",
+      "original_name": "AFANDA 17 Ä°N DUAL.png",
+      "size": 347891,
+      "mime_type": "image/png",
+      "url": "/uploads/c40ab6ec-acfa-4e75-8da9-0e27b27d72dd.png",
+      "created_at": "2026-05-10T15:03:03.071Z"
+    },
+    {
+      "id": "31531b96-e712-44e1-bbc5-0813ef18678b",
+      "filename": "a9c71bd7-3d14-4b4f-b16d-b6ebc4eb66c4.jpg",
+      "original_name": "AFANDA 18.5 Ä°5.JPG",
+      "size": 23527,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/a9c71bd7-3d14-4b4f-b16d-b6ebc4eb66c4.jpg",
+      "created_at": "2026-05-10T15:03:10.449Z"
+    },
+    {
+      "id": "39e3da7b-7327-4458-9cff-be21deecf34a",
+      "filename": "9f50f2b7-3530-4810-9f14-9c2456f7713b.jpg",
+      "original_name": "ATOM BÄ°LÄ°SÄ°M.jpg",
+      "size": 371560,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/9f50f2b7-3530-4810-9f14-9c2456f7713b.jpg",
+      "created_at": "2026-05-10T15:03:17.662Z"
     }
   ],
   "pages": [
@@ -516,18 +541,201 @@
       "updatedAt": "2026-03-22T19:40:15.391Z"
     },
     {
-      "id": "f789bd9a-4d61-4371-b756-ce23fd81dc5c",
+      "id": "page-e-donusum",
       "parentId": null,
-      "slug": "selami",
-      "title": "selami",
-      "body": "DSALSADSANDŞLSADNŞLASMDŞLSAMDŞA",
-      "image": "/uploads/d8c8d921-4374-4cc4-a411-6ab44b61e091.jpg",
+      "slug": "e-donusum",
+      "title": "E-Dönüşüm",
+      "body": "<h2>E-Dönüşüm Çözümleri</h2><p>Yasal zorunlulukları kolayca karşılayın. E-Fatura, E-İrsaliye, E-Arşiv ve E-Defter süreçlerinizi tek platformda yönetin, Gelir İdaresi Başkanlığı entegrasyonuyla uyumlu kalın.</p>",
+      "image": "",
+      "images": [],
+      "seoTitle": "E-Dönüşüm Çözümleri | İvoPos",
+      "seoDescription": "E-Fatura, E-İrsaliye, E-Arşiv ve E-Defter çözümleri. GİB uyumlu e-dönüşüm tek platformda.",
+      "order": 0,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-e-fatura",
+      "parentId": "page-e-donusum",
+      "slug": "e-fatura",
+      "title": "E-Fatura",
+      "body": "<h2>E-Fatura</h2><p>GİB onaylı e-fatura çözümüyle faturalarınızı hızlı, güvenli ve yasal uyumlu şekilde oluşturun ve gönderin.</p><h3>Öne Çıkan Özellikler</h3><ul><li>GİB entegrasyonu ile anlık gönderim</li><li>Otomatik e-fatura oluşturma (ERP ile entegre)</li><li>Gelen ve giden fatura yönetimi</li><li>Arşivleme ve zaman damgası</li><li>UBL-TR formatı desteği</li><li>Toplu fatura gönderimi</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "E-Fatura | İvoPos E-Dönüşüm",
+      "seoDescription": "GİB onaylı e-fatura çözümü. Faturalarınızı hızlı ve yasal uyumlu şekilde oluşturun ve gönderin.",
+      "order": 0,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-e-irsaliye",
+      "parentId": "page-e-donusum",
+      "slug": "e-irsaliye",
+      "title": "E-İrsaliye",
+      "body": "<h2>E-İrsaliye</h2><p>Sevk irsaliyelerinizi elektronik ortamda düzenleyin. Malın alıcıya tesliminde yasal zorunluluğu karşılayın, kağıt maliyetinden kurtulun.</p><h3>Öne Çıkan Özellikler</h3><ul><li>Anlık GİB gönderimi ve onay takibi</li><li>Stok ve lojistik modülüyle entegrasyon</li><li>Toplu irsaliye oluşturma</li><li>Sürücü ve araç bilgisi yönetimi</li><li>İrsaliyeden e-faturaya otomatik dönüşüm</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "E-İrsaliye | İvoPos E-Dönüşüm",
+      "seoDescription": "Sevk irsaliyelerinizi elektronik ortamda düzenleyin. GİB uyumlu e-irsaliye çözümü.",
+      "order": 1,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-e-arsiv",
+      "parentId": "page-e-donusum",
+      "slug": "e-arsiv",
+      "title": "E-Arşiv",
+      "body": "<h2>E-Arşiv Fatura</h2><p>Nihai tüketicilere kesilen faturalarınızı elektronik ortamda düzenleyin. E-Fatura mükellefi olmayan alıcılar için e-arşiv fatura zorunluluğunu eksiksiz karşılayın.</p><h3>Öne Çıkan Özellikler</h3><ul><li>GİB portalı entegrasyonu</li><li>PDF ve XML formatında fatura üretimi</li><li>E-posta ile otomatik fatura gönderimi</li><li>10 yıllık yasal arşivleme</li><li>İptal ve iade fatura yönetimi</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "E-Arşiv | İvoPos E-Dönüşüm",
+      "seoDescription": "E-arşiv fatura çözümü. Nihai tüketicilere yasal uyumlu elektronik fatura gönderin.",
+      "order": 2,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-e-defter",
+      "parentId": "page-e-donusum",
+      "slug": "e-defter",
+      "title": "E-Defter",
+      "body": "<h2>E-Defter</h2><p>Yevmiye defteri ve büyük defterin elektronik ortamda tutulması zorunluluğunu kolayca karşılayın. Muhasebe verilerinizden otomatik e-defter oluşturun.</p><h3>Öne Çıkan Özellikler</h3><ul><li>GİB ve EDPB uyumlu e-defter üretimi</li><li>Otomatik berat oluşturma ve onaylama</li><li>Muhasebe modülüyle tam entegrasyon</li><li>Aylık berat gönderim takibi</li><li>Geçmiş dönem defter arşivi</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "E-Defter | İvoPos E-Dönüşüm",
+      "seoDescription": "Yevmiye ve büyük defterin elektronik tutulma zorunluluğunu kolayca karşılayın.",
+      "order": 3,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-erp-satis",
+      "parentId": "page-erp",
+      "slug": "satis-yonetimi",
+      "title": "Saha Satış Yönetimi",
+      "body": "<p>Satış YönetimiSatış süreçlerinizi uçtan uca yönetin. Tekliften faturaya, siparişten teslimatat takibine kadar tüm satış operasyonlarınızı tek platformda kontrol altına alın.</p>\n<p>Öne Çıkan ÖzelliklerTeklif ve sipariş yönetimiMüşteri bazlı fiyat listeleri ve iskonto yönetimiSatış temsilcisi bazlı performans raporlarıAnlık stok kontrolü ile satış entegrasyonuOtomatik fatura kesme ve gönderim takibi</p>",
+      "image": "/uploads/6fd96abc-bbf1-4f44-9fc0-1c0c25c49a1a.png",
+      "images": [],
+      "seoTitle": "Satış Yönetimi | İvoPos ERP",
+      "seoDescription": "Satış süreçlerinizi uçtan uca yönetin. Teklif, sipariş ve fatura takibini tek platformda yapın.",
+      "order": 1,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-08T16:12:16.409Z"
+    },
+    {
+      "id": "page-erp-uretim",
+      "parentId": "page-erp",
+      "slug": "uretim-yonetimi",
+      "title": "Üretim Yönetimi",
+      "body": "<h2>Üretim Yönetimi</h2><p>Üretim süreçlerinizi planlayın, izleyin ve optimize edin. İş emirlerinden reçete yönetimine kadar tüm üretim akışını dijitalleştirin.</p><h3>Öne Çıkan Özellikler</h3><ul><li>İş emri oluşturma ve takip</li><li>Reçete ve ürün ağacı yönetimi</li><li>Üretim planlama ve kapasite yönetimi</li><li>Hammadde ve yarı mamul stok takibi</li><li>Maliyet analizi ve üretim raporları</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "Üretim Yönetimi | İvoPos ERP",
+      "seoDescription": "Üretim süreçlerinizi planlayın ve izleyin. İş emri, reçete ve kapasite yönetimi tek platformda.",
+      "order": 2,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-erp-stok",
+      "parentId": "page-erp",
+      "slug": "stok-yonetimi",
+      "title": "Stok Yönetimi",
+      "body": "<h2>Stok Yönetimi</h2><p>Depo ve stok süreçlerinizi gerçek zamanlı olarak yönetin. Kritik stok seviyelerini takip edin, fazla stok maliyetlerini azaltın.</p><h3>Öne Çıkan Özellikler</h3><ul><li>Barkod ve QR kod desteği</li><li>Çok depolu stok yönetimi</li><li>Otomatik sipariş ve ikmal önerileri</li><li>Lot ve seri numarası takibi</li><li>Son kullanma tarihi yönetimi</li><li>Stok sayım ve envanter modülleri</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "Stok Yönetimi | İvoPos ERP",
+      "seoDescription": "Depo ve stok süreçlerinizi gerçek zamanlı yönetin. Çok depolu yapı ve barkod desteği ile.",
+      "order": 3,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-erp-finans",
+      "parentId": "page-erp",
+      "slug": "finans-yonetimi",
+      "title": "Finans Yönetimi",
+      "body": "<h2>Finans Yönetimi</h2><p>İşletmenizin finansal sağlığını anlık olarak izleyin. Nakit akışı, bütçe takibi ve finansal raporlamayla geleceğinizi planlayın.</p><h3>Öne Çıkan Özellikler</h3><ul><li>Nakit akışı planlama ve takibi</li><li>Banka hesap entegrasyonu</li><li>Çek ve senet yönetimi</li><li>Bütçe oluşturma ve sapma analizleri</li><li>Çoklu döviz desteği</li><li>Finansal dashboard ve raporlar</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "Finans Yönetimi | İvoPos ERP",
+      "seoDescription": "Nakit akışı, bütçe takibi ve finansal raporlama ile işletmenizin finansal sağlığını yönetin.",
+      "order": 4,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-07T00:00:00.000Z"
+    },
+    {
+      "id": "page-erp-genel-muhasebe",
+      "parentId": "page-erp",
+      "slug": "crm-teklif",
+      "title": "CRM Teklif Yönetim",
+      "body": "<h2>CRM Teklif Yönetim</h2><p>Muhasebe süreçlerinizi yasal mevzuata uygun, hızlı ve hatasız yürütün. Otomatik muhasebe kayıtlarıyla zamandan ve maliyetten tasarruf edin.</p><h3>Öne Çıkan Özellikler</h3><ul><li>Hesap planı ve mizan yönetimi</li><li>Otomatik yevmiye kaydı</li><li>KDV beyannamesi hazırlama</li><li>Ba-Bs mutabakat formları</li><li>Bilanço ve gelir tablosu raporları</li><li>E-Dönüşüm entegrasyonu</li></ul>",
+      "image": "",
+      "images": [],
+      "seoTitle": "Genel Muhasebe | İvoPos ERP",
+      "seoDescription": "Muhasebe süreçlerinizi yasal mevzuata uygun yürütün. Otomatik kayıtlar ve beyanname desteği.",
+      "order": 5,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-07T00:00:00.000Z",
+      "updatedAt": "2026-05-08T08:19:01.786Z"
+    },
+    {
+      "id": "page-erp-on-muhasebe",
+      "parentId": "page-erp",
+      "slug": "on-muhasebe",
+      "title": "Ön Muhasebe",
+      "body": "<h2>Ön Muhasebe Yönetimi</h2><p>İşletmenizin finansal yönetimini güçlendirmek ve her adımda kontrol sağlamak artık daha kolay! ToyaPlus Ön Muhasebe ekranı, işletmenizin mali süreçlerini optimize etmenize ve büyümenize katkıda bulunmanıza yardımcı olur.</p><h3>1. Hızlı ve Güvenilir Fatura İşlemleri</h3><ul><li>Fatura kesme ve takip işlemleri kolaylıkla gerçekleştirilebilir.</li><li>Otomatik fatura numarası atama ve izleme özellikleri ile hatasız bir süreç sunar.</li></ul><h3>2. Banka ve Kasa Hareketleri Yönetimi</h3><ul><li>Banka ve kasa işlemlerini tek bir merkezden izleyin.</li><li>Hesap bakiyelerini anında görüntüleme ve yönetme imkanı sunar.</li></ul><h3>3. Muhasebe Kayıtları ve İzleme</h3><ul><li>Geniş raporlama seçenekleri ile mali tablolarınızı anlık olarak inceleyin.</li><li>KDV, gelir vergisi gibi yasal gereksinimlere uygun muhasebe kayıtları oluşturun.</li></ul><h3>4. Müşteri ve Tedarikçi Hesap Yönetimi</h3><ul><li>Müşteri ve tedarikçi bilgilerini tek bir veritabanında toplayın.</li><li>Borç-alacak takibi ve hesap detaylarına anlık erişim sağlayın.</li></ul><h3>5. Mobil Uyum ve Kullanıcı Dostu Arayüz</h3><ul><li>Hareket halindeyken dahi finansal durumunuzu kontrol edin.</li><li>Kullanıcı dostu arayüzü sayesinde kolay öğrenilebilir ve hızlı bir kullanım sunar.</li></ul>",
+      "image": "",
+      "images": [
+        "/uploads/8d6a3c88-b66e-4a1b-afa8-7e9de73c57bd.jpg"
+      ],
+      "galleryPosition": "after",
+      "seoTitle": "",
+      "seoDescription": "",
+      "order": 0,
+      "createdAt": "2026-04-29T00:00:00.000Z",
+      "updatedAt": "2026-05-08T08:10:32.729Z"
+    },
+    {
+      "id": "12e93ed9-ea72-4beb-9036-5eb62ea595ec",
+      "parentId": null,
+      "slug": "genel-muhasebe",
+      "title": "Crm Teklif Yönetimi",
+      "body": "",
+      "image": "",
       "images": [],
       "seoTitle": "",
       "seoDescription": "",
       "order": 0,
-      "createdAt": "2026-03-23T07:46:47.942Z",
-      "updatedAt": "2026-03-23T12:35:35.382Z"
+      "galleryPosition": "after",
+      "createdAt": "2026-05-08T08:19:41.857Z",
+      "updatedAt": "2026-05-08T08:32:04.279Z"
+    },
+    {
+      "id": "54ed119d-1773-4719-b66c-cd7a816248f8",
+      "parentId": "page-erp",
+      "slug": "genel-muhasebe",
+      "title": "Crm Teklif Yönetimi",
+      "body": "",
+      "image": "",
+      "images": [],
+      "seoTitle": "",
+      "seoDescription": "",
+      "order": 0,
+      "galleryPosition": "after",
+      "createdAt": "2026-05-08T08:33:14.455Z",
+      "updatedAt": "2026-05-08T08:33:16.351Z"
     }
   ],
   "productCategories": [
@@ -536,12 +744,67 @@
       "name": "DOKUNMATİK BİLGİSAYAR",
       "slug": "dokunmati-k-bi-lgi-sayar",
       "parentId": null,
-      "image": "",
+      "image": "/uploads/224cfea5-dacc-429c-b08a-c81f0d59df2d.jpg",
       "order": 0,
-      "createdAt": "2026-03-23T12:32:09.649Z"
+      "createdAt": "2026-03-23T12:32:09.649Z",
+      "updatedAt": "2026-05-09T07:57:04.692Z"
+    },
+    {
+      "id": "cf405f30-6fb8-4ce8-8c1f-020f9f3bea2d",
+      "name": "Adisyon Fiş .Yazıcılar",
+      "slug": "adisyon-fis-yazicilar",
+      "parentId": null,
+      "image": "/uploads/9371456d-dd37-49c9-9668-744ac61e5284.jpg",
+      "order": 0,
+      "createdAt": "2026-05-08T08:28:21.445Z",
+      "updatedAt": "2026-05-09T08:14:34.050Z"
+    },
+    {
+      "id": "5436477b-688a-4e07-9468-dcb7f95a15de",
+      "name": "Barkod Yazıcılar",
+      "slug": "barkod-yazicilar",
+      "parentId": null,
+      "image": "/uploads/7c8b0820-3bbb-4ffe-9069-d2559e7648cd.jpg",
+      "order": 0,
+      "createdAt": "2026-05-08T08:28:38.086Z",
+      "updatedAt": "2026-05-09T08:14:42.091Z"
+    },
+    {
+      "id": "1e30112d-777e-43e8-895f-0d520f5575a5",
+      "name": "Akıllı Teraziler",
+      "slug": "akilli-teraziler",
+      "parentId": null,
+      "image": "/uploads/79976404-f022-4eee-99d1-5e8686905492.jpg",
+      "order": 0,
+      "createdAt": "2026-05-08T08:28:47.884Z",
+      "updatedAt": "2026-05-09T08:14:50.590Z"
     }
   ],
-  "products": [],
+  "products": [
+    {
+      "id": "6d724e9c-2795-44d9-b849-251fe60deccc",
+      "name": "Afanda Af-1600 Pos Terminal",
+      "slug": "afanda-af-1600-pos-terminal",
+      "categoryId": "55dc74bc-6d2c-48a9-805c-eeb45397fc77",
+      "price": 17500,
+      "discountPrice": null,
+      "images": [
+        "/uploads/a003a9e9-793e-4aaa-a5c6-579e45be7ca4.jpg",
+        "/uploads/c40ab6ec-acfa-4e75-8da9-0e27b27d72dd.png",
+        "/uploads/a9c71bd7-3d14-4b4f-b16d-b6ebc4eb66c4.jpg",
+        "/uploads/9f50f2b7-3530-4810-9f14-9c2456f7713b.jpg"
+      ],
+      "features": [],
+      "description": "",
+      "shortDescription": "• Intel® Core™ i5-3340M 2.70 GHz\n\n• 8 Gb Ram Ddr3  \n\n• 128 Gb Ssd\n\n• 15,6' Led Panel 1366x768 FLAT\n\n• Dahil İntel Hd Grafik Ekran Kartı\n\n• 6 Usb \n\n• 1 Vga \n\n• 10 Nokta Hassas Dokunmatik Panel\n\n• 10/100 Ethernet Kartı\n\n• 8 Karekter Dahili Led Gösterge\n\n• Dahili Ses Kartı",
+      "stock": 0,
+      "tags": [],
+      "isActive": true,
+      "createdAt": "2026-05-08T08:30:31.963Z",
+      "updatedAt": "2026-05-10T15:15:11.376Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/LdNq7eh4jmo?feature=share"
+    }
+  ],
   "seoMeta": [
     {
       "id": "seo-home",
@@ -624,6 +887,17 @@
       "reply": "",
       "status": "read",
       "createdAt": "2026-03-25T16:34:57.046Z",
+      "repliedAt": null
+    },
+    {
+      "id": "ab7c84b5-95b3-48b0-b659-88e2f2f5aa7c",
+      "sessionId": "a6e97af6-15c3-4d5e-ab84-d09d91f7740f",
+      "visitorName": "SELAMİ  TEMİZ",
+      "visitorEmail": "DEMO@xn--gmail-bgd.com",
+      "message": "[İletişim Formu]\nŞirket: DEMO\nTelefon: 434343434343\n\nWQESDSDASDA",
+      "reply": "",
+      "status": "new",
+      "createdAt": "2026-05-10T15:30:47.936Z",
       "repliedAt": null
     }
   ],

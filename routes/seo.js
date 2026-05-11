@@ -2,6 +2,7 @@ const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const db = require('../db');
 const auth = require('../middleware/auth');
+const config = require('../config');
 
 router.get('/global', (_req, res) => {
   res.json(db.get('seoGlobal').value());
@@ -44,7 +45,7 @@ router.get('/sitemap.xml', (_req, res) => {
   const pages = db.get('pages').value();
   const products = db.get('products').value().filter((p) => p.isActive !== false);
   const global = db.get('seoGlobal').value();
-  const host = 'https://example.com';
+  const host = config.HOST.replace(/\/$/, '');
 
   function buildPageUrls(nodes, parentSlug = '') {
     let urls = [];

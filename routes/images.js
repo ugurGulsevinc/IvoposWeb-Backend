@@ -25,19 +25,24 @@ const upload = multer({
   }
 });
 
-router.post('/', auth, upload.single('image'), (req, res) => {
-  if (!req.file) return res.status(400).json({ error: 'Dosya yüklenemedi' });
-  const image = {
-    id: uuidv4(),
-    filename: req.file.filename,
-    original_name: req.file.originalname,
-    size: req.file.size,
-    mime_type: req.file.mimetype,
-    url: `/uploads/${req.file.filename}`,
-    created_at: new Date().toISOString()
-  };
-  db.get('images').push(image).write();
-  res.json(image);
+router.post('/', auth, (req, res, next) => {
+  upload.single('image')(req, res, (err) => {
+    if (err) {
+      return res.status(400).json({ error: err.message || 'Dosya yüklenemedi' });
+    }
+    if (!req.file) return res.status(400).json({ error: 'Dosya yüklenemedi' });
+    const image = {
+      id: uuidv4(),
+      filename: req.file.filename,
+      original_name: req.file.originalname,
+      size: req.file.size,
+      mime_type: req.file.mimetype,
+      url: `/uploads/${req.file.filename}`,
+      created_at: new Date().toISOString()
+    };
+    db.get('images').push(image).write();
+    res.json(image);
+  });
 });
 
 router.get('/', auth, (req, res) => {

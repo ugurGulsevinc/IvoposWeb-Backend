@@ -25,11 +25,15 @@ app.use('/api/references', require('./routes/references'));
 app.use('/api/downloads', require('./routes/downloads'));
 app.use('/api/contact', require('./routes/contact'));
 
+// SEO dosyalarını root'tan da sun (botlar /robots.txt ve /sitemap.xml bekler)
 const seoRouter = require('./routes/seo');
-app.get('/robots.txt', (req, res) => seoRouter.handle ? seoRouter.handle(req, res) : res.type('text/plain').send('User-agent: *\nAllow: /'));
-app.get('/sitemap.xml', (req, res) => {
+app.get('/robots.txt', (req, res, next) => {
+  req.url = '/robots.txt';
+  seoRouter(req, res, next);
+});
+app.get('/sitemap.xml', (req, res, next) => {
   req.url = '/sitemap.xml';
-  seoRouter(req, res, () => {});
+  seoRouter(req, res, next);
 });
 
 // Production: React build dosyalarını serve et
