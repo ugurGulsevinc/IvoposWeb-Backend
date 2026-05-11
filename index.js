@@ -7,7 +7,25 @@ const path = require('path');
 
 const app = express();
 
-app.use(helmet({ crossOriginResourcePolicy: false }));
+app.use(helmet({ 
+  crossOriginResourcePolicy: false,
+  crossOriginEmbedderPolicy: false, // Bazı dış kaynakları engellememesi için esnek tutuyoruz
+  crossOriginOpenerPolicy: { policy: "same-origin" },
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "blob:"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
+      imgSrc: ["'self'", "data:", "blob:", "https://staticimgly.com"],
+      mediaSrc: ["'self'", "data:", "blob:"],
+      connectSrc: ["'self'", "data:", "blob:", "https://api.ivocrm.com", "https://staticimgly.com"],
+      workerSrc: ["'self'", "blob:"],
+      fontSrc: ["'self'", "https:", "data:"],
+      objectSrc: ["'none'"],
+      upgradeInsecureRequests: [],
+    },
+  },
+}));
 app.use(cors({ origin: config.CLIENT_URL }));
 app.use(express.json({ limit: '10mb' }));
 app.use(rateLimit({ windowMs: 60 * 1000, max: 200 }));

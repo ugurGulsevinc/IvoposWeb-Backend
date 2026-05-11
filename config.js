@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 if (!process.env.JWT_SECRET && process.env.NODE_ENV === 'production') {
   console.error('[FATAL] JWT_SECRET env variable is not set in production!');
   process.exit(1);
