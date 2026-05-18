@@ -9,18 +9,25 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', auth, (req, res) => {
-  const { name, logo, downloadUrl, order } = req.body;
+  const { name, logo, downloadUrl, order, categoryId } = req.body;
   if (!name) return res.status(400).json({ error: 'name gerekli' });
-  const item = { id: uuidv4(), name, logo: logo || '', downloadUrl: downloadUrl || '', order: order ?? 0 };
+  
+  let finalCategoryId = categoryId;
+  if (!finalCategoryId) {
+    const firstCat = db.get('downloadCategories').first().value();
+    finalCategoryId = firstCat ? firstCat.id : 'default-genel';
+  }
+
+  const item = { id: uuidv4(), name, logo: logo || '', downloadUrl: downloadUrl || '', order: order ?? 0, categoryId: finalCategoryId };
   db.get('downloads').push(item).write();
   res.json(item);
 });
 
 router.put('/:id', auth, (req, res) => {
-  const { name, logo, downloadUrl, order } = req.body;
+  const { name, logo, downloadUrl, order, categoryId } = req.body;
   const item = db.get('downloads').find({ id: req.params.id });
   if (!item.value()) return res.status(404).json({ error: 'Bulunamadı' });
-  item.assign({ name, logo: logo || '', downloadUrl: downloadUrl || '', order: order ?? 0 }).write();
+  item.assign({ name, logo: logo || '', downloadUrl: downloadUrl || '', order: order ?? 0, categoryId: categoryId || item.value().categoryId }).write();
   res.json({ success: true });
 });
 

@@ -597,6 +597,15 @@
       "mime_type": "image/png",
       "url": "/uploads/77923cdd-87d1-4075-8550-c3a5f0f32acb.png",
       "created_at": "2026-05-17T16:12:24.595Z"
+    },
+    {
+      "id": "e7e12c14-c877-4ae6-a89a-c129ff34c104",
+      "filename": "f6a83485-0ccc-4937-ad09-a3797f14e4b0.png",
+      "original_name": "1-post.png",
+      "size": 4167186,
+      "mime_type": "image/png",
+      "url": "/uploads/f6a83485-0ccc-4937-ad09-a3797f14e4b0.png",
+      "created_at": "2026-05-18T13:19:47.057Z"
     }
   ],
   "pages": [
@@ -1042,125 +1051,163 @@
       "name": "TOYAPOS ",
       "logo": "/uploads/72f86e5f-63a7-4f86-ba92-cacbaef16152.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Pos_1767863987.exe",
-      "order": 1
+      "order": 1,
+      "categoryId": "default-genel"
     },
     {
       "id": "4861fc3b-9928-4a6e-9dfe-ac61f45c4a66",
       "name": "SQL SERVER 2014 FULL",
       "logo": "/uploads/48441af6-f28c-4ae1-8660-060e364c9249.png",
       "downloadUrl": "https://download.microsoft.com/download/e/a/e/eae6f7fc-767a-4038-a954-49b8b05d04eb/ExpressAdv%2064BIT/SQLEXPRADV_x64_ENU.exe",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "8a2b5c3a-c68d-459a-87ea-6f9fa8ff135f",
       "name": "TOYAPLUS SETUP",
       "logo": "/uploads/3f09db4e-4287-4a52-9529-5fb630f51f2e.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Plus_1767882943.exe",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "ce000bb0-431a-4972-acc0-35612de22493",
       "name": "ANDORİD CALLER ID",
       "logo": "/uploads/6a081ede-aeb0-45ff-91ba-79c3940199f0.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/68af1a1ce58fb_CallerID.apk",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "d040de5d-2afc-4ce3-902a-3fa8ecf9cb59",
       "name": "ANDORİD GARSON APK",
       "logo": "/uploads/488e6e6f-bb94-468a-acf6-f4687ed6621a.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Garson_1_4_12_1.apk",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "a6d1e215-ac4f-459b-a494-3452bdfda931",
       "name": "TOYA AKTARIM",
       "logo": "/uploads/4bf21495-1b5a-4a38-bc06-efe7cbb4f25e.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/688b71bc5ec2f_ToyaAktarm.zip",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "49325b77-35e8-431e-a384-12d0b30cdba4",
       "name": "SQL Server 2019 X64",
       "logo": "/uploads/2a1e5f0e-0fda-48cf-b497-b3fe8f59a1d4.png",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/SQL_Server_2019.exe",
-      "order": 2
+      "order": 2,
+      "categoryId": "default-genel"
     },
     {
       "id": "a1987089-98fd-4bb1-97d5-21c5df650905",
       "name": "DENSİ TERAZİ PRORAMLARI",
       "logo": "/uploads/8d66a772-230f-4b3b-b063-a33ed4b9bcae.jpeg",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Densi%20Terazi?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "3373e0fc-0856-4394-9ed0-f9bc69c30f9b",
       "name": "ACLAS TERAZİ PROGRAMLARI",
       "logo": "/uploads/e761bd4e-2574-4ad4-8d85-9ea3c428310f.jpg",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Aclass?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "64153d91-ad76-49a9-aa13-e3be19909f3b",
       "name": "BİZERBA TERAZİ ",
       "logo": "/uploads/a578d905-dc92-4117-8053-695cde7b65ca.png",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Bizerba%20%C3%9C%C3%A7ge?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "aaa9ada7-99c1-4ecc-a538-1216d681c13d",
       "name": "DİBAL TERAZİ",
       "logo": "/uploads/7a80b800-7598-4188-a490-019bd8ae6cb1.jpg",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Dibal%20Tem%20Terazi?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "61c9a177-fec8-4970-a038-f7360308541f",
       "name": "DİGİ TERAZİ PROGRAMLARI",
       "logo": "/uploads/dc0459a1-eca8-4e1e-b86d-c333c07acee4.jpg",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Digi?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "d6a2eb8d-9421-4db4-8dd2-cef61794bf69",
       "name": "PERKON DİGİ TERAZİ",
       "logo": "/uploads/1d06d037-1acb-4b75-8b01-88d6a69071b5.jpg",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Digi%20Perkon?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "0dfad179-ca7d-49bf-9957-3d5ae543f995",
       "name": "BARKOD YAZICI DRİVERLARI",
       "logo": "",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Yaz%C4%B1c%C4%B1%20Driver/Barkod%20Yaz%C4%B1c%C4%B1lar?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "00240488-52bc-488e-8bac-c06eb20d9df4",
       "name": "ADİSYON YAZICI SÜRÜCÜLERİ",
       "logo": "",
       "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Yaz%C4%B1c%C4%B1%20Driver/Pos%20Yaz%C4%B1c%C4%B1lar?w=1",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "deeb21c9-49db-4e6e-9ab8-45b70ab32139",
       "name": "ANYDESK ESKİ SÜRÜM",
       "logo": "/uploads/77923cdd-87d1-4075-8550-c3a5f0f32acb.png",
       "downloadUrl": "https://disk.yandex.com.tr/d/BL0io6lagPul-A",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "4315d4c9-cef2-470d-86bc-61ac00f4d7e6",
       "name": "FAST REPORT ",
       "logo": "",
       "downloadUrl": "https://disk.yandex.com.tr/d/EI6V4_hgdslqQQ",
-      "order": 0
+      "order": 0,
+      "categoryId": "default-genel"
     },
     {
       "id": "33a43d10-80f8-4a54-a786-d05155412113",
       "name": "OFİS 2007",
       "logo": "",
       "downloadUrl": "https://disk.yandex.com.tr/d/rf5VTt5JfhmdH",
+      "order": 0,
+      "categoryId": "default-genel"
+    },
+    {
+      "id": "da30fda3-962a-4426-9f6a-21a9f187e886",
+      "name": "f",
+      "logo": "/uploads/f6a83485-0ccc-4937-ad09-a3797f14e4b0.png",
+      "downloadUrl": "f",
+      "order": 0,
+      "categoryId": "c0782f8d-cf07-4e5c-9415-89557c41faf8"
+    }
+  ],
+  "downloadCategories": [
+    {
+      "id": "default-genel",
+      "name": "Genel",
+      "order": 0
+    },
+    {
+      "id": "c0782f8d-cf07-4e5c-9415-89557c41faf8",
+      "name": "x",
       "order": 0
     }
   ]

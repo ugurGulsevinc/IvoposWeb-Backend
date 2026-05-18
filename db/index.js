@@ -310,7 +310,8 @@ db.defaults({
   chatSessions: [],
   chatMessages: [],
   references: [],
-  downloads: []
+  downloads: [],
+  downloadCategories: []
 }).write();
 
 // sections dizisine theme yok ise ekle
@@ -356,6 +357,36 @@ if (!hasHomeLayout) {
     content: { activeTheme: 'A' },
     updated_at: new Date().toISOString()
   }).write();
+}
+
+// --- Download Categories Migration ---
+const hasDownloadCategories = db.get('downloadCategories').value();
+let defaultCategoryId = 'default-genel';
+
+if (!hasDownloadCategories || hasDownloadCategories.length === 0) {
+  db.get('downloadCategories').push({
+    id: defaultCategoryId,
+    name: 'Genel',
+    order: 0
+  }).write();
+} else {
+  const firstCat = db.get('downloadCategories').first().value();
+  if (firstCat) {
+    defaultCategoryId = firstCat.id;
+  }
+}
+
+// Migrate existing downloads
+const downloads = db.get('downloads').value();
+let downloadsUpdated = false;
+downloads.forEach(d => {
+  if (!d.categoryId) {
+    d.categoryId = defaultCategoryId;
+    downloadsUpdated = true;
+  }
+});
+if (downloadsUpdated) {
+  db.write();
 }
 
 module.exports = db;
