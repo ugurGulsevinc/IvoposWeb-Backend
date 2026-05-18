@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
-      "password_hash": "$2b$10$YDnGuS.nbP66wODY.948cenMxElvLgRzVRFqQfLekKC/cJBykJKSy"
+      "username": "ivoadmin",
+      "password_hash": "$2b$10$MPxUr/N9AohzJCNEM6SuaudS.RT0VTUUGe9HGFts4imKtQe6uvvuS"
     }
   ],
   "sections": [
@@ -471,6 +471,132 @@
       "mime_type": "image/jpeg",
       "url": "/uploads/9f50f2b7-3530-4810-9f14-9c2456f7713b.jpg",
       "created_at": "2026-05-10T15:03:17.662Z"
+    },
+    {
+      "id": "853cc211-9474-451c-9a03-bb4155944f17",
+      "filename": "48441af6-f28c-4ae1-8660-060e364c9249.png",
+      "original_name": "SQL.png",
+      "size": 4934,
+      "mime_type": "image/png",
+      "url": "/uploads/48441af6-f28c-4ae1-8660-060e364c9249.png",
+      "created_at": "2026-05-17T15:17:55.813Z"
+    },
+    {
+      "id": "61134e43-1da2-454e-aa5e-be4f366f14b4",
+      "filename": "72f86e5f-63a7-4f86-ba92-cacbaef16152.jpg",
+      "original_name": "toyapos.JPG",
+      "size": 44717,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/72f86e5f-63a7-4f86-ba92-cacbaef16152.jpg",
+      "created_at": "2026-05-17T15:21:40.667Z"
+    },
+    {
+      "id": "6a5364ad-d2c0-4743-a72a-6e52f686f5a1",
+      "filename": "3f09db4e-4287-4a52-9529-5fb630f51f2e.jpg",
+      "original_name": "toyaplus.JPG",
+      "size": 6213,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/3f09db4e-4287-4a52-9529-5fb630f51f2e.jpg",
+      "created_at": "2026-05-17T15:22:54.357Z"
+    },
+    {
+      "id": "71d0bfe8-ba7e-489f-a3b5-c6f7c19e3a8d",
+      "filename": "6a081ede-aeb0-45ff-91ba-79c3940199f0.jpg",
+      "original_name": "toyapos.JPG",
+      "size": 44717,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/6a081ede-aeb0-45ff-91ba-79c3940199f0.jpg",
+      "created_at": "2026-05-17T15:23:42.296Z"
+    },
+    {
+      "id": "2edb47f8-2ac4-4c73-970d-d67fd8f72c2b",
+      "filename": "488e6e6f-bb94-468a-acf6-f4687ed6621a.jpg",
+      "original_name": "toyapos.JPG",
+      "size": 44717,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/488e6e6f-bb94-468a-acf6-f4687ed6621a.jpg",
+      "created_at": "2026-05-17T15:24:38.769Z"
+    },
+    {
+      "id": "a5b7aac3-c600-43d2-b8ff-4c76d42b16e3",
+      "filename": "4bf21495-1b5a-4a38-bc06-efe7cbb4f25e.jpg",
+      "original_name": "toyapos.JPG",
+      "size": 44717,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/4bf21495-1b5a-4a38-bc06-efe7cbb4f25e.jpg",
+      "created_at": "2026-05-17T15:25:20.198Z"
+    },
+    {
+      "id": "18a63bf7-595a-4fa3-8cf1-f0c7a9a774b3",
+      "filename": "2a1e5f0e-0fda-48cf-b497-b3fe8f59a1d4.png",
+      "original_name": "SQL.png",
+      "size": 4934,
+      "mime_type": "image/png",
+      "url": "/uploads/2a1e5f0e-0fda-48cf-b497-b3fe8f59a1d4.png",
+      "created_at": "2026-05-17T15:26:15.915Z"
+    },
+    {
+      "id": "509a8e43-c54b-4040-8a01-3f289bd0ef6b",
+      "filename": "8d66a772-230f-4b3b-b063-a33ed4b9bcae.jpeg",
+      "original_name": "Densi Logo2.jpeg",
+      "size": 298987,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/8d66a772-230f-4b3b-b063-a33ed4b9bcae.jpeg",
+      "created_at": "2026-05-17T15:34:57.111Z"
+    },
+    {
+      "id": "170a02a7-ceea-483c-90b7-3028b4b75753",
+      "filename": "e761bd4e-2574-4ad4-8d85-9ea3c428310f.jpg",
+      "original_name": "ACLAS TERAZÄ°.JPG",
+      "size": 7303,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/e761bd4e-2574-4ad4-8d85-9ea3c428310f.jpg",
+      "created_at": "2026-05-17T15:36:54.461Z"
+    },
+    {
+      "id": "574f712b-2dbc-49ae-85cf-9b723a677530",
+      "filename": "a578d905-dc92-4117-8053-695cde7b65ca.png",
+      "original_name": "BÄ°ZERBA TERAZÄ°.png",
+      "size": 3387,
+      "mime_type": "image/png",
+      "url": "/uploads/a578d905-dc92-4117-8053-695cde7b65ca.png",
+      "created_at": "2026-05-17T15:38:20.472Z"
+    },
+    {
+      "id": "835b596a-03d2-44b4-94de-8dda069b0ab6",
+      "filename": "7a80b800-7598-4188-a490-019bd8ae6cb1.jpg",
+      "original_name": "DÄ°BAL TERAZÄ°.jpg",
+      "size": 9412,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/7a80b800-7598-4188-a490-019bd8ae6cb1.jpg",
+      "created_at": "2026-05-17T15:40:51.764Z"
+    },
+    {
+      "id": "9adb1709-e246-44cb-8b86-5a4316eb632b",
+      "filename": "dc0459a1-eca8-4e1e-b86d-c333c07acee4.jpg",
+      "original_name": "DÄ°GÄ° TERAZÄ°.JPG",
+      "size": 13320,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/dc0459a1-eca8-4e1e-b86d-c333c07acee4.jpg",
+      "created_at": "2026-05-17T15:42:06.162Z"
+    },
+    {
+      "id": "280fca90-3926-4f5c-99d0-74604bee3bb2",
+      "filename": "1d06d037-1acb-4b75-8b01-88d6a69071b5.jpg",
+      "original_name": "PERKON DÄ°GÄ°.jpg",
+      "size": 5428,
+      "mime_type": "image/jpeg",
+      "url": "/uploads/1d06d037-1acb-4b75-8b01-88d6a69071b5.jpg",
+      "created_at": "2026-05-17T15:48:16.753Z"
+    },
+    {
+      "id": "c874acc2-d2f7-4cc6-8b3b-f0fab4c48fcb",
+      "filename": "77923cdd-87d1-4075-8550-c3a5f0f32acb.png",
+      "original_name": "ANYDESK.png",
+      "size": 6648,
+      "mime_type": "image/png",
+      "url": "/uploads/77923cdd-87d1-4075-8550-c3a5f0f32acb.png",
+      "created_at": "2026-05-17T16:12:24.595Z"
     }
   ],
   "pages": [
@@ -914,9 +1040,128 @@
     {
       "id": "a69f1790-90fa-4799-94a4-b82761fd86a4",
       "name": "TOYAPOS ",
-      "logo": "/uploads/1239ae18-47a0-44cd-9c55-116d73524bdc.jpg",
+      "logo": "/uploads/72f86e5f-63a7-4f86-ba92-cacbaef16152.jpg",
       "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Pos_1767863987.exe",
       "order": 1
+    },
+    {
+      "id": "4861fc3b-9928-4a6e-9dfe-ac61f45c4a66",
+      "name": "SQL SERVER 2014 FULL",
+      "logo": "/uploads/48441af6-f28c-4ae1-8660-060e364c9249.png",
+      "downloadUrl": "https://download.microsoft.com/download/e/a/e/eae6f7fc-767a-4038-a954-49b8b05d04eb/ExpressAdv%2064BIT/SQLEXPRADV_x64_ENU.exe",
+      "order": 0
+    },
+    {
+      "id": "8a2b5c3a-c68d-459a-87ea-6f9fa8ff135f",
+      "name": "TOYAPLUS SETUP",
+      "logo": "/uploads/3f09db4e-4287-4a52-9529-5fb630f51f2e.jpg",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Plus_1767882943.exe",
+      "order": 0
+    },
+    {
+      "id": "ce000bb0-431a-4972-acc0-35612de22493",
+      "name": "ANDORİD CALLER ID",
+      "logo": "/uploads/6a081ede-aeb0-45ff-91ba-79c3940199f0.jpg",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/68af1a1ce58fb_CallerID.apk",
+      "order": 0
+    },
+    {
+      "id": "d040de5d-2afc-4ce3-902a-3fa8ecf9cb59",
+      "name": "ANDORİD GARSON APK",
+      "logo": "/uploads/488e6e6f-bb94-468a-acf6-f4687ed6621a.jpg",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/Toya_Garson_1_4_12_1.apk",
+      "order": 0
+    },
+    {
+      "id": "a6d1e215-ac4f-459b-a494-3452bdfda931",
+      "name": "TOYA AKTARIM",
+      "logo": "/uploads/4bf21495-1b5a-4a38-bc06-efe7cbb4f25e.jpg",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/688b71bc5ec2f_ToyaAktarm.zip",
+      "order": 0
+    },
+    {
+      "id": "49325b77-35e8-431e-a384-12d0b30cdba4",
+      "name": "SQL Server 2019 X64",
+      "logo": "/uploads/2a1e5f0e-0fda-48cf-b497-b3fe8f59a1d4.png",
+      "downloadUrl": "https://www.toyayazilim.com.tr/download/downloads/SQL_Server_2019.exe",
+      "order": 2
+    },
+    {
+      "id": "a1987089-98fd-4bb1-97d5-21c5df650905",
+      "name": "DENSİ TERAZİ PRORAMLARI",
+      "logo": "/uploads/8d66a772-230f-4b3b-b063-a33ed4b9bcae.jpeg",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Densi%20Terazi?w=1",
+      "order": 0
+    },
+    {
+      "id": "3373e0fc-0856-4394-9ed0-f9bc69c30f9b",
+      "name": "ACLAS TERAZİ PROGRAMLARI",
+      "logo": "/uploads/e761bd4e-2574-4ad4-8d85-9ea3c428310f.jpg",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Aclass?w=1",
+      "order": 0
+    },
+    {
+      "id": "64153d91-ad76-49a9-aa13-e3be19909f3b",
+      "name": "BİZERBA TERAZİ ",
+      "logo": "/uploads/a578d905-dc92-4117-8053-695cde7b65ca.png",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Bizerba%20%C3%9C%C3%A7ge?w=1",
+      "order": 0
+    },
+    {
+      "id": "aaa9ada7-99c1-4ecc-a538-1216d681c13d",
+      "name": "DİBAL TERAZİ",
+      "logo": "/uploads/7a80b800-7598-4188-a490-019bd8ae6cb1.jpg",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Dibal%20Tem%20Terazi?w=1",
+      "order": 0
+    },
+    {
+      "id": "61c9a177-fec8-4970-a038-f7360308541f",
+      "name": "DİGİ TERAZİ PROGRAMLARI",
+      "logo": "/uploads/dc0459a1-eca8-4e1e-b86d-c333c07acee4.jpg",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Digi?w=1",
+      "order": 0
+    },
+    {
+      "id": "d6a2eb8d-9421-4db4-8dd2-cef61794bf69",
+      "name": "PERKON DİGİ TERAZİ",
+      "logo": "/uploads/1d06d037-1acb-4b75-8b01-88d6a69071b5.jpg",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Terazi/Digi%20Perkon?w=1",
+      "order": 0
+    },
+    {
+      "id": "0dfad179-ca7d-49bf-9957-3d5ae543f995",
+      "name": "BARKOD YAZICI DRİVERLARI",
+      "logo": "",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Yaz%C4%B1c%C4%B1%20Driver/Barkod%20Yaz%C4%B1c%C4%B1lar?w=1",
+      "order": 0
+    },
+    {
+      "id": "00240488-52bc-488e-8bac-c06eb20d9df4",
+      "name": "ADİSYON YAZICI SÜRÜCÜLERİ",
+      "logo": "",
+      "downloadUrl": "https://disk.yandex.com.tr/d/V9E7lyQI-VoD6w/Yaz%C4%B1c%C4%B1%20Driver/Pos%20Yaz%C4%B1c%C4%B1lar?w=1",
+      "order": 0
+    },
+    {
+      "id": "deeb21c9-49db-4e6e-9ab8-45b70ab32139",
+      "name": "ANYDESK ESKİ SÜRÜM",
+      "logo": "/uploads/77923cdd-87d1-4075-8550-c3a5f0f32acb.png",
+      "downloadUrl": "https://disk.yandex.com.tr/d/BL0io6lagPul-A",
+      "order": 0
+    },
+    {
+      "id": "4315d4c9-cef2-470d-86bc-61ac00f4d7e6",
+      "name": "FAST REPORT ",
+      "logo": "",
+      "downloadUrl": "https://disk.yandex.com.tr/d/EI6V4_hgdslqQQ",
+      "order": 0
+    },
+    {
+      "id": "33a43d10-80f8-4a54-a786-d05155412113",
+      "name": "OFİS 2007",
+      "logo": "",
+      "downloadUrl": "https://disk.yandex.com.tr/d/rf5VTt5JfhmdH",
+      "order": 0
     }
   ]
 }
