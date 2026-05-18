@@ -1189,25 +1189,12 @@
       "downloadUrl": "https://disk.yandex.com.tr/d/rf5VTt5JfhmdH",
       "order": 0,
       "categoryId": "default-genel"
-    },
-    {
-      "id": "da30fda3-962a-4426-9f6a-21a9f187e886",
-      "name": "f",
-      "logo": "/uploads/f6a83485-0ccc-4937-ad09-a3797f14e4b0.png",
-      "downloadUrl": "f",
-      "order": 0,
-      "categoryId": "c0782f8d-cf07-4e5c-9415-89557c41faf8"
     }
   ],
   "downloadCategories": [
     {
       "id": "default-genel",
       "name": "Genel",
-      "order": 0
-    },
-    {
-      "id": "c0782f8d-cf07-4e5c-9415-89557c41faf8",
-      "name": "x",
       "order": 0
     }
   ]

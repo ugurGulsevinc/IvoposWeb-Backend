@@ -25,11 +25,10 @@ router.put('/:id', auth, (req, res) => {
 });
 
 router.delete('/:id', auth, (req, res) => {
-  // Kategori silindiğinde programları 'default-genel' kategorisine al
   const downloads = db.get('downloads').filter({ categoryId: req.params.id }).value();
-  downloads.forEach(d => {
-    db.get('downloads').find({ id: d.id }).assign({ categoryId: 'default-genel' }).write();
-  });
+  if (downloads && downloads.length > 0) {
+    return res.status(400).json({ error: 'Bu kategoride programlar bulunuyor. Önce programları silin veya başka kategoriye taşıyın.' });
+  }
   
   db.get('downloadCategories').remove({ id: req.params.id }).write();
   res.json({ success: true });
