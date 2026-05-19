@@ -24,7 +24,7 @@
             "link": "/cozum/erp-cozumleri",
             "children": [
               {
-                "label": "Ön Muhasebe Yönetimi",
+                "label": "Ön Muhasebe",
                 "link": "/cozum/erp-cozumleri/on-muhasebe"
               },
               {
@@ -93,7 +93,7 @@
           }
         ]
       },
-      "updated_at": "2026-05-08T15:21:35.138Z"
+      "updated_at": "2026-05-19T07:48:26.638Z"
     },
     {
       "slug": "hero",
@@ -606,6 +606,24 @@
       "mime_type": "image/png",
       "url": "/uploads/f6a83485-0ccc-4937-ad09-a3797f14e4b0.png",
       "created_at": "2026-05-18T13:19:47.057Z"
+    },
+    {
+      "id": "aadf85ef-b203-4b68-9db7-96001bfb8706",
+      "filename": "55145ad7-1825-431b-b76c-e05a87aa92f0.png",
+      "original_name": "arka-plan-temizlenmis.png",
+      "size": 664516,
+      "mime_type": "image/png",
+      "url": "/uploads/55145ad7-1825-431b-b76c-e05a87aa92f0.png",
+      "created_at": "2026-05-19T07:19:13.581Z"
+    },
+    {
+      "id": "4559e26b-c1b6-4d44-b501-20c333cdf1c3",
+      "filename": "7dbaf076-3bb0-4212-a30d-490f97e9e56b.png",
+      "original_name": "favicon.png",
+      "size": 1443043,
+      "mime_type": "image/png",
+      "url": "/uploads/7dbaf076-3bb0-4212-a30d-490f97e9e56b.png",
+      "created_at": "2026-05-19T07:19:19.634Z"
     }
   ],
   "pages": [
@@ -785,7 +803,7 @@
       "parentId": "page-erp",
       "slug": "stok-yonetimi",
       "title": "Stok Yönetimi",
-      "body": "<h2>Stok Yönetimi</h2><p>Depo ve stok süreçlerinizi gerçek zamanlı olarak yönetin. Kritik stok seviyelerini takip edin, fazla stok maliyetlerini azaltın.</p><h3>Öne Çıkan Özellikler</h3><ul><li>Barkod ve QR kod desteği</li><li>Çok depolu stok yönetimi</li><li>Otomatik sipariş ve ikmal önerileri</li><li>Lot ve seri numarası takibi</li><li>Son kullanma tarihi yönetimi</li><li>Stok sayım ve envanter modülleri</li></ul>",
+      "body": "Stok YönetimiDepo\n ve stok süreçlerinizi\n gerçek zamanlı olarak yönetin.\n Kritik stok seviyelerini takip edin,\n fazla stok maliyetlerini azaltın.\n\nÖne Çıkan ÖzelliklerBarkod\n ve QR kod desteğiÇok depolu\n stok yönetimiOtomatik sipari\nş ve ikmal önerileriLot ve seri\n numarası takibiSon kullanma tari\nhi yönetimiStok sayım ve envanter modülleri",
       "image": "",
       "images": [],
       "seoTitle": "Stok Yönetimi | İvoPos ERP",
@@ -793,7 +811,7 @@
       "order": 3,
       "galleryPosition": "after",
       "createdAt": "2026-05-07T00:00:00.000Z",
-      "updatedAt": "2026-05-07T00:00:00.000Z"
+      "updatedAt": "2026-05-18T15:42:59.267Z"
     },
     {
       "id": "page-erp-finans",
@@ -830,17 +848,18 @@
       "parentId": "page-erp",
       "slug": "on-muhasebe",
       "title": "Ön Muhasebe",
-      "body": "<h2>Ön Muhasebe Yönetimi</h2><p>İşletmenizin finansal yönetimini güçlendirmek ve her adımda kontrol sağlamak artık daha kolay! ToyaPlus Ön Muhasebe ekranı, işletmenizin mali süreçlerini optimize etmenize ve büyümenize katkıda bulunmanıza yardımcı olur.</p><h3>1. Hızlı ve Güvenilir Fatura İşlemleri</h3><ul><li>Fatura kesme ve takip işlemleri kolaylıkla gerçekleştirilebilir.</li><li>Otomatik fatura numarası atama ve izleme özellikleri ile hatasız bir süreç sunar.</li></ul><h3>2. Banka ve Kasa Hareketleri Yönetimi</h3><ul><li>Banka ve kasa işlemlerini tek bir merkezden izleyin.</li><li>Hesap bakiyelerini anında görüntüleme ve yönetme imkanı sunar.</li></ul><h3>3. Muhasebe Kayıtları ve İzleme</h3><ul><li>Geniş raporlama seçenekleri ile mali tablolarınızı anlık olarak inceleyin.</li><li>KDV, gelir vergisi gibi yasal gereksinimlere uygun muhasebe kayıtları oluşturun.</li></ul><h3>4. Müşteri ve Tedarikçi Hesap Yönetimi</h3><ul><li>Müşteri ve tedarikçi bilgilerini tek bir veritabanında toplayın.</li><li>Borç-alacak takibi ve hesap detaylarına anlık erişim sağlayın.</li></ul><h3>5. Mobil Uyum ve Kullanıcı Dostu Arayüz</h3><ul><li>Hareket halindeyken dahi finansal durumunuzu kontrol edin.</li><li>Kullanıcı dostu arayüzü sayesinde kolay öğrenilebilir ve hızlı bir kullanım sunar.</li></ul>",
-      "image": "",
+      "body": "<h1 style=\"text-align: left;\">Ön <mark data-color=\"#fda88b\" style=\"background-color: rgb(253, 168, 139); color: inherit;\">Muhasebe</mark> Yönetimi</h1><p>İşletmenizin finansal yönetimini güçlendirmek ve her adımda kontrol sağlamak artık daha kolay! ToyaPlus Ön Muhasebe ekranı, işletmenizin mali süreçlerini optimize etmenize ve büyümenize katkıda bulunmanıza yardımcı olur.</p><h3>1. Hızlı ve Güvenilir Fatura İşlemleri</h3><ul><li><p>Fatura kesme ve takip işlemleri kolaylıkla gerçekleştirilebilir.</p></li><li><p>Otomatik fatura numarası atama ve izleme özellikleri ile hatasız bir süreç sunar.</p></li></ul><h3>2. Banka ve Kasa Hareketleri Yönetimi</h3><ul><li><p>Banka ve kasa işlemlerini tek bir merkezden izleyin.</p></li><li><p>Hesap bakiyelerini anında görüntüleme ve yönetme imkanı sunar.</p></li></ul><h3>3. Muhasebe Kayıtları ve İzleme</h3><ul><li><p>Geniş raporlama seçenekleri ile mali tablolarınızı anlık olarak inceleyin.</p></li><li><p>KDV, gelir vergisi gibi yasal gereksinimlere uygun muhasebe kayıtları oluşturun.</p></li></ul><h3>4. Müşteri ve Tedarikçi Hesap Yönetimi</h3><ul><li><p>Müşteri ve tedarikçi bilgilerini tek bir veritabanında toplayın.</p></li><li><p>Borç-alacak takibi ve hesap detaylarına anlık erişim sağlayın.</p></li></ul><h3>5. Mobil Uyum ve Kullanıcı Dostu Arayüz</h3><ul><li><p>Hareket halindeyken dahi finansal durumunuzu kontrol edin.</p></li><li><p>Kullanıcı dostu arayüzü sayesinde kolay öğrenilebilir ve hızlı bir kullanım sunar.</p></li></ul><p></p>",
+      "image": "/uploads/55145ad7-1825-431b-b76c-e05a87aa92f0.png",
       "images": [
-        "/uploads/8d6a3c88-b66e-4a1b-afa8-7e9de73c57bd.jpg"
+        "/uploads/8d6a3c88-b66e-4a1b-afa8-7e9de73c57bd.jpg",
+        "/uploads/7dbaf076-3bb0-4212-a30d-490f97e9e56b.png"
       ],
       "galleryPosition": "after",
       "seoTitle": "",
       "seoDescription": "",
       "order": 0,
       "createdAt": "2026-04-29T00:00:00.000Z",
-      "updatedAt": "2026-05-08T08:10:32.729Z"
+      "updatedAt": "2026-05-19T07:51:18.488Z"
     },
     {
       "id": "12e93ed9-ea72-4beb-9036-5eb62ea595ec",
